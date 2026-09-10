@@ -1,0 +1,179 @@
+// Aladdin Distribuidora — Prisma schema (SQLite)
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  tagline       String?
+  // Per-brand theme (each catalog page gets its own style)
+  primaryColor  String   @default("#1B4332")
+  accentColor   String   @default("#C9A227")
+  bgColor       String   @default("#FFFFFF")
+  surfaceColor  String   @default("#F7F5F0")
+  textColor     String   @default("#0B0B0B")
+  mutedColor    String   @default("#6B7280")
+  themeMode     String   @default("light") // light | dark
+  fontStyle     String   @default("serif") // serif | sans
+  logoUrl       String?
+  stripImageUrl String?
+  stripFit      String   @default("cover")
+  heroImageUrl  String?
+  description   String?
+  order         Int      @default(0)
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  products      Product[]
+  videos        BrandVideo[]
+
+  @@index([order])
+}
+
+model BrandVideo {
+  id          String   @id @default(cuid())
+  brandId     String
+  title       String
+  youtubeUrl String
+  thumbnail   String?
+  order       Int      @default(0)
+  brand       Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@index([brandId])
+}
+
+model Category {
+  id        String    @id @default(cuid())
+  name      String
+  slug      String    @unique
+  order     Int       @default(0)
+  products  Product[]
+}
+
+model Product {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  brandId     String
+  categoryId  String?
+  price       Float     @default(0)
+  oldPrice    Float?
+  quantity    Int       @default(0)
+  minQuantity Int       @default(1)
+  unit        String?
+  description String?
+  // JSON array of up to 6 image URLs
+  images      String    @default("[]")
+  showPrice   Boolean   @default(true)
+  featured    Boolean   @default(false)
+  active      Boolean   @default(true)
+  order       Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  brand       Brand     @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  category    Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  @@index([brandId])
+  @@index([categoryId])
+  @@index([featured])
+}
+
+model Representative {
+  id         String   @id @default(cuid())
+  name       String
+  slug       String   @unique
+  photoUrl   String?
+  whatsapp   String
+  bio        String?
+  instagram  String?
+  region     String?
+  active     Boolean  @default(true)
+  order      Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Course {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  description String?
+  // category: vendas | maquiagem | financas | gestao | desenvolvimento-pessoal | educacao-financeira | atendimento
+  category    String   @default("vendas")
+  coverUrl    String?
+  instructor  String?
+  duration    String?
+  level       String   @default("iniciante") // iniciante | intermediario | avancado
+  featured    Boolean  @default(false)
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  lessons     Lesson[]
+
+  @@index([category])
+}
+
+model Lesson {
+  id          String   @id @default(cuid())
+  courseId     String
+  title       String
+  youtubeUrl  String
+  duration    String?
+  order       Int      @default(0)
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@index([courseId])
+}
+
+model BlogArticle {
+  id           String   @id @default(cuid())
+  title        String
+  slug         String   @unique
+  excerpt      String
+  category     String   @default("Cuidados Pessoais")
+  cover        String?
+  author       String   @default("Equipe Aladdin Distribuidora")
+  readTime     Int      @default(5)
+  publishedAt  DateTime @default(now())
+  content      String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([category])
+  @@index([publishedAt])
+}
+
+model SiteSettings {
+  id                String   @id @default("singleton")
+  brandName         String   @default("Aladdin Distribuidora")
+  heroTitle         String   @default("Beleza que move o seu negócio")
+  heroSubtitle      String   @default("Distribuidora oficial de cosméticos e produtos capilares em Goiás e no Distrito Federal.")
+  heroImageUrl      String?
+  heroBadge         String   @default("+9 anos de experiência")
+  institutionalText String   @default("A Aladdin Distribuidora é referência na distribuição de cosméticos e produtos capilares em Goiás e no Distrito Federal.")
+  address           String   @default("Av. Dr. Ismerino Soares de Carvalho, 292 - Quadra 16-A Lote 16 - St. Aeroporto, Goiânia - GO, 74075-040")
+  phone             String   @default("(62) 99546-0509")
+  whatsapp         String   @default("5562995460509")
+  instagram1        String   @default("aladdin.distribuidora")
+  instagram2        String   @default("knutgoias")
+  wazeUrl           String?
+  mapsUrl           String?
+  mapEmbed          String?
+  yearsExperience   Int      @default(9)
+  brandsCount       Int      @default(8)
+  updatedAt         DateTime @updatedAt
+}
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
