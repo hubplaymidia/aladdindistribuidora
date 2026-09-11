@@ -5,6 +5,7 @@ import { useApp } from '@/lib/store-app'
 import { api } from '@/lib/api'
 import type { Brand, Category, Product } from '@/lib/types'
 import { ProductCard } from '@/components/shared/ProductCard'
+import { BackBar } from '@/components/shared/BackBar'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
@@ -15,7 +16,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
-import { ChevronLeft, Search, SlidersHorizontal, X } from 'lucide-react'
+import { Search, SlidersHorizontal, X, ShoppingBag } from 'lucide-react'
 
 export function CatalogView({
   brands,
@@ -65,12 +66,7 @@ export function CatalogView({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'home' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Início
-      </button>
+      <BackBar label="Início" onBack={() => navigate({ name: 'home' })} />
 
       <header className="mb-6">
         <h1 className="font-serif text-3xl font-bold sm:text-4xl">Catálogo de Produtos</h1>
@@ -78,6 +74,18 @@ export function CatalogView({
           Todos os produtos das nossas marcas. Use os filtros para encontrar o que precisa.
         </p>
       </header>
+
+      <div className="mb-6 flex gap-3 rounded-2xl border border-border bg-card p-4 shadow-sm sm:items-center sm:p-5">
+        <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#111] text-white">
+          <ShoppingBag className="h-4 w-4" />
+        </div>
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          <span className="font-medium text-foreground">Como pedir: </span>
+          toque no <strong className="text-foreground">+</strong> para adicionar à sacola,
+          abra a sacola, <strong className="text-foreground">gere o PDF</strong> do pedido e
+          envie para o seu <strong className="text-foreground">representante</strong>.
+        </p>
+      </div>
 
       {/* Toolbar */}
       <div className="mb-6 flex flex-wrap items-center gap-2">
@@ -149,7 +157,7 @@ export function CatalogView({
       )}
 
       {loading ? (
-        <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="aspect-[3/4] animate-pulse rounded-xl bg-muted" />
           ))}
@@ -163,7 +171,7 @@ export function CatalogView({
           <div className="mb-3 text-sm text-muted-foreground">
             {sorted.length} produto{sorted.length > 1 ? 's' : ''} encontrado{sorted.length > 1 ? 's' : ''}
           </div>
-          <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-2 lg:grid-cols-3">
             {sorted.map((p) => (
               <ProductCard
                 key={p.id}

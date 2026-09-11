@@ -15,7 +15,7 @@ const brands = [
   {
     name: 'Knut Hair Care',
     slug: 'knut-hair-care',
-    tagline: 'Cuidado profissional para cada tipo de cabelo',
+    tagline: 'Cuidado profissional para os fios',
     // Black / white / a bit of gold / light gray (user spec)
     primaryColor: '#0B0B0B',
     accentColor: '#C9A227',
@@ -35,7 +35,7 @@ const brands = [
   {
     name: 'Dailus',
     slug: 'dailus',
-    tagline: 'Maquiagem que traduz a sua beleza',
+    tagline: 'Maquiagem que traduz sua beleza',
     // Pink / black / white premium makeup palette
     primaryColor: '#C9184A',
     accentColor: '#1A1A1A',
@@ -54,7 +54,7 @@ const brands = [
   {
     name: 'Labotrat',
     slug: 'labotrat',
-    tagline: 'Tratamento capilar profissional',
+    tagline: 'Dermocosméticos de alta performance',
     primaryColor: '#4C1D95',
     accentColor: '#C4B5FD',
     bgColor: '#FFFFFF',
@@ -65,14 +65,14 @@ const brands = [
     fontStyle: 'serif',
     stripImageUrl: '/brands/strip-default.jpg',
     description:
-      'Labotrat — tratamentos capilares com tecnologia: antiquespa, botox, repositor de massa e reconstrução profunda.',
+      'Labotrat — dermocosméticos com DNA farmacêutico: skincare, proteção solar e cuidados de alta eficácia.',
     featured: false,
     order: 3,
   },
   {
     name: 'Sffumato Beauty',
     slug: 'sffumato-beauty',
-    tagline: 'A sofisticação do sfumato',
+    tagline: 'Pincéis e acessórios de make',
     primaryColor: '#5B4A5A',
     accentColor: '#D4A574',
     bgColor: '#FFFFFF',
@@ -88,8 +88,8 @@ const brands = [
     order: 4,
   },
   {
-    name: 'Super Poderesas',
-    slug: 'super-poderesas',
+    name: '#SUPER PODERES',
+    slug: 'super-poderes',
     tagline: 'Poder feminino em cada produto',
     primaryColor: '#831843',
     accentColor: '#F59E0B',
@@ -101,14 +101,14 @@ const brands = [
     fontStyle: 'sans',
     stripImageUrl: '/brands/strip-default.jpg',
     description:
-      'Super Poderesas — linha de cosméticos e maquiagem que empodera mulheres empreendedoras.',
+      '#SUPER PODERES — linha de cosméticos e maquiagem que empodera mulheres empreendedoras.',
     featured: false,
     order: 5,
   },
   {
     name: 'SP Colors',
     slug: 'sp-colors',
-    tagline: 'Cores que transformam',
+    tagline: 'Cores que transformam o look',
     primaryColor: '#B91C1C',
     accentColor: '#F59E0B',
     bgColor: '#FFFFFF',
@@ -124,9 +124,9 @@ const brands = [
     order: 6,
   },
   {
-    name: 'Doha Professional',
+    name: 'DO.HA Professional',
     slug: 'doha-professional',
-    tagline: 'Profissionalização em cada fio',
+    tagline: 'Performance profissional nos fios',
     primaryColor: '#92400E',
     accentColor: '#FCD34D',
     bgColor: '#FFFFFF',
@@ -144,7 +144,7 @@ const brands = [
   {
     name: 'City Girls',
     slug: 'city-girls',
-    tagline: 'Beleza jovem e vibrante',
+    tagline: 'Beleza jovem, ousada e vibrante',
     primaryColor: '#DB2777',
     accentColor: '#F472B6',
     bgColor: '#FFFFFF',
@@ -457,20 +457,20 @@ const products: SeedProduct[] = [
   },
   // ── SUPER PODERESAS ─────────────────────────────────────────────────────────
   {
-    name: 'Kit Maquiagem Super Poderesas',
-    brandSlug: 'super-poderesas',
+    name: 'Kit Maquiagem #SUPER PODERES',
+    brandSlug: 'super-poderes',
     catSlug: 'maquiagem',
     price: 99.9,
     oldPrice: 129.9,
     qty: 40,
     minQty: 2,
-    desc: 'Kit completo Super Poderesas com paleta, batons e pincéis. Empoderamento em cada detalhe.',
+    desc: 'Kit completo #SUPER PODERES com paleta, batons e pincéis. Empoderamento em cada detalhe.',
     images: ['/products/placeholder-makeup-1.jpg'],
     featured: true,
   },
   {
-    name: 'Base Super Poderesas',
-    brandSlug: 'super-poderesas',
+    name: 'Base #SUPER PODERES',
+    brandSlug: 'super-poderes',
     catSlug: 'maquiagem',
     price: 49.9,
     qty: 70,
@@ -894,7 +894,7 @@ const settings = {
   heroImageUrl: '/hero/hero-main.png',
   heroBadge: '+9 anos de experiência',
   institutionalText:
-    'A Aladdin Distribuidora é referência na distribuição de cosméticos e produtos capilares em Goiás e no Distrito Federal, representando grandes marcas como Knut Hair Care, Dailus, Labotrat, Doha Professional, City Girls, SP Colors, Sffumato Beauty e Super Poderesas. Com mais de 9 anos de experiência, garantimos um atendimento diferenciado e uma parceria sólida com nossos clientes.',
+    'A Aladdin Distribuidora é referência na distribuição de cosméticos e produtos capilares em Goiás e no Distrito Federal, representando grandes marcas como Knut Hair Care, Dailus, Labotrat, Doha Professional, City Girls, SP Colors, Sffumato Beauty e #SUPER PODERES. Com mais de 9 anos de experiência, garantimos um atendimento diferenciado e uma parceria sólida com nossos clientes.',
   address:
     'Av. Dr. Ismerino Soares de Carvalho, 292 - Quadra 16-A Lote 16 - St. Aeroporto, Goiânia - GO, 74075-040',
   phone: '(62) 99546-0509',

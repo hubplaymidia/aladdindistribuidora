@@ -103,6 +103,14 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    /* Mobile browsers paint a translucent highlight rectangle over whatever
+       is tapped by default — on rounded/icon buttons this can look like a
+       stray "cursor bar". Turning it off here and giving every interactive
+       element an intentional focus-visible ring (below) removes the glitch
+       everywhere at once instead of button-by-button. */
+    -webkit-tap-highlight-color: transparent;
+  }
   body {
     @apply bg-background text-foreground;
     font-size: 16px;
@@ -112,6 +120,21 @@
   }
   button, input, textarea, select {
     font: inherit;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button, [role="button"], a {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  /* Only show a focus ring for keyboard navigation, never as a leftover
+     artifact from a tap/click — this is the other half of the fix above. */
+  button:focus, [role="button"]:focus, a:focus {
+    outline: none;
+  }
+  button:focus-visible, [role="button"]:focus-visible, a:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--ring) 70%, transparent);
+    outline-offset: 2px;
+    border-radius: 4px;
   }
   h1, h2, h3, .font-serif {
     letter-spacing: -0.025em;
@@ -244,29 +267,34 @@
     linear-gradient(120deg, #050505 0%, #111111 52%, #262626 100%);
 }
 
-/* Premium frame: thinner, cleaner, less bulky */
+/* Premium frame — thin gold rim, soft depth */
 .frame-premium {
   position: relative;
   isolation: isolate;
-  border-radius: 1.75rem;
-  padding: 5px;
-  background: linear-gradient(135deg, rgba(255,255,255,.7), rgba(255,255,255,.12) 42%, rgba(201,162,39,.68) 100%);
+  border-radius: 1.5rem;
+  padding: 3px;
+  background:
+    linear-gradient(145deg, #f5e6b8 0%, #C9A227 28%, #8a6a10 55%, #e8d48a 78%, #C9A227 100%);
   box-shadow:
-    0 28px 70px -32px rgba(0,0,0,.72),
-    0 10px 26px -18px rgba(0,0,0,.55),
-    0 0 0 1px rgba(255,255,255,.14) inset;
+    0 24px 50px -28px rgba(0,0,0,.55),
+    0 8px 20px -12px rgba(0,0,0,.35),
+    0 0 0 1px rgba(201,162,39,.25);
 }
 .frame-premium::before {
   content: "";
   position: absolute;
-  inset: 9px;
-  z-index: -1;
-  border-radius: 1.35rem;
-  box-shadow: 0 0 0 1px rgba(255,255,255,.14) inset;
+  inset: 3px;
+  z-index: 0;
+  border-radius: calc(1.5rem - 3px);
+  background: linear-gradient(180deg, rgba(255,255,255,.35), transparent 40%);
+  pointer-events: none;
 }
 .frame-premium > * {
-  border-radius: 1.45rem;
+  position: relative;
+  z-index: 1;
+  border-radius: calc(1.5rem - 3px);
   overflow: hidden;
+  display: block;
 }
 
 .brand-strip-card {
@@ -314,3 +342,104 @@
 /* Hide scrollbar utility */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ─── Assertive navigation: back / close bar ──────────────────────────────
+   Shared visual language for the "Voltar" control used at the top of every
+   sub-page (brand, product, catalog, blog, academy…). */
+.nav-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.5rem 0.9rem 0.5rem 0.7rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--foreground);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s cubic-bezier(.2,.7,.3,1), box-shadow 0.25s, background 0.25s, border-color 0.25s;
+}
+.nav-back-btn:hover {
+  transform: translateX(-2px);
+  box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.35);
+  border-color: color-mix(in srgb, var(--foreground) 22%, var(--border));
+}
+.nav-back-btn:active { transform: translateX(-1px) scale(0.97); }
+
+.nav-close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--muted-foreground);
+  transition: transform 0.25s cubic-bezier(.2,.7,.3,1), background 0.25s, color 0.25s;
+}
+.nav-close-btn:hover {
+  background: var(--muted);
+  color: var(--foreground);
+  transform: rotate(90deg);
+}
+
+/* Quick-add button on product cards: visible on hover for mouse users,
+   and always visible on touch devices (no hover state to reveal it). */
+.quick-add-btn { opacity: 0; transform: translateY(6px); }
+.group:hover .quick-add-btn { opacity: 1; transform: translateY(0); }
+@media (hover: none) {
+  .quick-add-btn { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ─── Extra micro-interactions (2026 polish) ─────────────────────────────── */
+@keyframes cart-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+.cart-badge-pop {
+  animation: cart-pop 0.45s cubic-bezier(.2,.7,.3,1);
+}
+
+@keyframes soft-glow {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--card-glow, #C9A227) 0%, transparent); }
+  50% { box-shadow: 0 0 24px -4px color-mix(in srgb, var(--card-glow, #C9A227) 35%, transparent); }
+}
+
+.product-card-premium:active {
+  transform: translateY(-3px) scale(0.995);
+}
+
+/* Smoother sheet mobile menu */
+[data-slot="sheet-content"] {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Premium focus for interactive cards */
+.product-card-premium:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--card-glow, #C9A227) 55%, transparent);
+  outline-offset: 3px;
+}
+
+/* Mobile quick-add always visible and elevated */
+@media (hover: none) {
+  .quick-add-btn {
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: 0 8px 20px -6px rgba(0,0,0,.45);
+  }
+}
+
+
+/* Header nav: never show text caret / selection cursor on menu items */
+header nav a,
+header nav button,
+header [data-slot="navigation-menu-trigger"],
+header [data-slot="navigation-menu-link"] {
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}

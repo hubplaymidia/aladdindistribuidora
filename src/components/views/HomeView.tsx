@@ -12,6 +12,19 @@ import {
 } from 'lucide-react'
 import { WhatsAppIcon, InstagramIcon } from '@/components/icons/SocialIcons'
 
+/** Nomes curtos para pills/marquee (mobile) */
+function shortBrandName(name: string) {
+  const n = name.trim()
+  if (/doha/i.test(n)) return 'DO.HA PROF.'
+  if (/super\s*poderes/i.test(n) || n.includes('#SUPER')) return '#SUPER P.'
+  if (/knut/i.test(n)) return 'Knut'
+  if (/sffumato/i.test(n)) return 'Sffumato'
+  if (/city\s*girls/i.test(n)) return 'City Girls'
+  if (/sp\s*colors/i.test(n)) return 'SP Colors'
+  return n
+}
+
+
 export function HomeView({
   settings,
   brands,
@@ -60,7 +73,7 @@ export function HomeView({
                 onClick={() => navigate({ name: 'catalog' })}
                 className="bg-[#141210] text-white hover:bg-[#2a2622]"
               >
-                Ver catálogo
+                Catálogo Geral
                 <ArrowRight className="ml-1.5 h-4 w-4" />
               </Button>
               <Button
@@ -76,49 +89,50 @@ export function HomeView({
             <div className="mt-8 flex flex-wrap gap-6 text-sm">
               <Stat icon={<Star className="h-4 w-4 text-[#B8860B]" />} value={`${settings.yearsExperience} anos`} label="de experiência" dark />
               <Stat icon={<Sparkles className="h-4 w-4 text-[#B8860B]" />} value={`${settings.brandsCount} marcas`} label="parceiras" dark />
-              <Stat icon={<MapPin className="h-4 w-4 text-[#B8860B]" />} value="GO + DF" label="atuação regional" dark />
             </div>
           </div>
 
           {/* Right: framed FIBER PRO image */}
-          <div className="relative reveal-up" style={{ animationDelay: '0.1s' }}>
-            <div className="frame-premium mx-auto max-w-md md:max-w-lg">
-              { }
+          <div className="relative mx-auto w-full max-w-md reveal-up md:max-w-lg" style={{ animationDelay: '0.1s' }}>
+            <div className="frame-premium">
               <img
                 src={settings.heroImageUrl || '/hero/hero-main.png'}
                 alt="Linha Fiber Pro — Knut Hair Care"
-                className="h-full w-full object-cover"
+                className="aspect-[4/3] h-full w-full object-cover sm:aspect-[5/4]"
               />
             </div>
-            <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-[#141210]/85 px-4 py-1.5 text-xs font-medium text-amber-200 backdrop-blur">
-              Linha <strong>Fiber Pro</strong> · Knut Hair Care
+            <div className="mt-4 flex justify-center px-2 sm:mt-0 sm:absolute sm:-bottom-3 sm:left-1/2 sm:-translate-x-1/2 sm:px-0">
+              <div className="inline-flex items-center justify-center rounded-full bg-[#141210]/90 px-4 py-2 text-center text-[11px] font-medium leading-tight text-amber-100 shadow-lg backdrop-blur sm:text-xs">
+                <span>Linha <strong className="text-amber-200">Fiber Pro</strong> · Knut Hair Care</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* ─── MARQUEE: brands strip ─── */}
-      <section className="border-b border-border bg-background py-5">
-        <div className="mx-auto flex max-w-7xl items-center gap-2 overflow-hidden px-4">
-          <div className="flex shrink-0 items-center gap-2 pr-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-            <Sparkles className="h-3.5 w-3.5 text-amber-500" /> Marcas parceiras
-          </div>
-          <div className="relative flex-1 overflow-hidden">
-            <div className="flex w-max animate-marquee gap-3">
-              {[...brands, ...brands].map((b, i) => (
-                <button
-                  key={`${b.id}-${i}`}
-                  onClick={() => navigate({ name: 'brand', brandSlug: b.slug })}
-                  className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground transition-all hover:scale-105 hover:border-foreground/30"
-                >
-                  <span
-                    className="inline-block h-2.5 w-2.5 rounded-full"
-                    style={{ background: b.primaryColor }}
-                  />
-                  {b.name}
-                </button>
-              ))}
-            </div>
+      <section className="border-b border-border bg-background py-4 sm:py-5">
+        <div className="mb-3 flex items-center justify-center gap-2 px-4 text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground sm:text-xs">
+          <Sparkles className="h-3.5 w-3.5 text-amber-500" />
+          Marcas parceiras
+        </div>
+        <div className="relative w-full overflow-hidden">
+          <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-8 bg-gradient-to-r from-background to-transparent sm:w-12" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-8 bg-gradient-to-l from-background to-transparent sm:w-12" />
+          <div className="flex w-max animate-marquee gap-2.5 px-2 sm:gap-3">
+            {[...brands, ...brands].map((b, i) => (
+              <button
+                key={`${b.id}-${i}`}
+                onClick={() => navigate({ name: 'brand', brandSlug: b.slug })}
+                className="inline-flex shrink-0 items-center gap-2 rounded-full border border-border bg-card px-3.5 py-2 text-sm font-medium text-foreground transition-all hover:scale-105 hover:border-foreground/30"
+              >
+                <span
+                  className="inline-block h-2.5 w-2.5 rounded-full"
+                  style={{ background: b.primaryColor }}
+                />
+                {shortBrandName(b.name)}
+              </button>
+            ))}
           </div>
         </div>
       </section>
@@ -137,27 +151,29 @@ export function HomeView({
             <button
               key={b.id}
               onClick={() => navigate({ name: 'brand', brandSlug: b.slug })}
-              className="brand-strip-card group relative min-h-[112px] overflow-hidden rounded-[1.4rem] border border-white/10 text-left text-white"
+              className="brand-strip-card group relative h-[108px] overflow-hidden rounded-[1.35rem] border border-white/10 text-left text-white sm:h-[118px]"
               style={{
                 background: `linear-gradient(115deg, ${b.primaryColor} 0%, ${b.primaryColor}e6 35%, ${b.accentColor}b8 135%)`,
               }}
             >
-              <div className="absolute inset-0 opacity-55">
+              <div className="absolute inset-0 opacity-50">
                 <div className="absolute -right-10 -top-20 h-56 w-56 rounded-full border border-white/25" />
-                <div className="absolute right-24 top-[-4rem] h-48 w-48 rounded-full bg-white/10 blur-2xl transition-transform duration-700 group-hover:translate-x-4" />
-                <div className="absolute inset-y-0 left-[52%] w-px bg-white/15" />
-                <div className="absolute inset-y-0 left-[68%] w-px bg-white/10" />
+                <div className="absolute right-20 top-[-3rem] h-40 w-40 rounded-full bg-white/10 blur-2xl transition-transform duration-700 group-hover:translate-x-4" />
               </div>
-              <div className="relative flex min-h-[112px] items-center justify-between gap-5 px-6 py-5 sm:px-8">
-                <div>
-                  <div className="mb-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/65">
+              <div className="relative flex h-full items-center justify-between gap-4 px-5 py-4 sm:px-7">
+                <div className="min-w-0 flex-1">
+                  <div className="mb-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/60 sm:text-[11px]">
                     Catálogo {String(index + 1).padStart(2, '0')}
                   </div>
-                  <div className="font-serif text-2xl font-bold tracking-tight sm:text-3xl">{b.name}</div>
-                  <div className="mt-1 text-sm text-white/80 sm:text-base">{b.tagline}</div>
+                  <div className="truncate font-serif text-xl font-bold tracking-tight sm:text-2xl md:text-[1.65rem]">
+                    {b.name}
+                  </div>
+                  <div className="mt-0.5 line-clamp-1 text-xs text-white/75 sm:text-sm">
+                    {b.tagline}
+                  </div>
                 </div>
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full border border-white/25 bg-black/15 backdrop-blur transition-all duration-300 group-hover:translate-x-1 group-hover:bg-white group-hover:text-black">
-                  <ArrowUpRight className="h-5 w-5" />
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-white/25 bg-black/20 backdrop-blur transition-all duration-300 group-hover:translate-x-1 group-hover:bg-white group-hover:text-black sm:h-11 sm:w-11">
+                  <ArrowUpRight className="h-4 w-4 sm:h-5 sm:w-5" />
                 </span>
               </div>
             </button>
@@ -178,7 +194,7 @@ export function HomeView({
               </Button>
             }
           />
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-8 grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-2 lg:grid-cols-3">
             {featured.length === 0
               ? Array.from({ length: 4 }).map((_, i) => (
                   <div key={i} className="aspect-[3/4] animate-pulse rounded-xl bg-muted" />

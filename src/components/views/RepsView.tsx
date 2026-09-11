@@ -5,8 +5,9 @@ import { api } from '@/lib/api'
 import type { Representative } from '@/lib/types'
 import { Button } from '@/components/ui/button'
 import { WhatsAppIcon, InstagramIcon } from '@/components/icons/SocialIcons'
-import { ChevronLeft, Users } from 'lucide-react'
+import { Users } from 'lucide-react'
 import { useApp } from '@/lib/store-app'
+import { BackBar } from '@/components/shared/BackBar'
 
 export function RepsView() {
   const navigate = useApp((s) => s.navigate)
@@ -22,12 +23,7 @@ export function RepsView() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'home' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Início
-      </button>
+      <BackBar label="Início" onBack={() => navigate({ name: 'home' })} />
 
       <header className="mb-8">
         <div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-amber-600">

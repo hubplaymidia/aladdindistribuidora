@@ -6,13 +6,13 @@ import { api } from '@/lib/api'
 import type { BrandDetail } from '@/lib/types'
 import { BrandTheme } from '@/components/shared/BrandTheme'
 import { ProductCard } from '@/components/shared/ProductCard'
+import { BackBar } from '@/components/shared/BackBar'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { ScrollArea } from '@/components/ui/scroll-area'
 import { YouTubeIcon } from '@/components/icons/SocialIcons'
-import { youtubeEmbed, youtubeId, youtubeThumb } from '@/lib/format'
+import { youtubeId, youtubeThumb } from '@/lib/format'
 import {
-  ChevronLeft, Search, Play, X, ArrowLeft, Tag, Package,
+  Search, Play, X, Tag, Package, ChevronDown, ShoppingBag, FileText, Users,
 } from 'lucide-react'
 
 export function BrandView({ brandSlug }: { brandSlug: string }) {
@@ -22,6 +22,8 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
   const [q, setQ] = React.useState('')
   const [catSlug, setCatSlug] = React.useState<string | null>(null)
   const [activeVideo, setActiveVideo] = React.useState<string | null>(null)
+  const [openProducts, setOpenProducts] = React.useState(false)
+  const [openCategories, setOpenCategories] = React.useState(false)
 
   React.useEffect(() => {
     setLoading(true)
@@ -63,105 +65,178 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
 
   return (
     <BrandTheme brand={brand} className="min-h-screen">
-      {/* Brand hero strip — abstract identity, no product imagery */}
       <section
         className="relative overflow-hidden border-b border-white/10 text-white"
-        style={{ background: `linear-gradient(118deg, ${brand.primaryColor} 0%, ${brand.primaryColor}e8 54%, ${brand.accentColor}c9 145%)` }}
+        style={{ background: `linear-gradient(128deg, ${brand.primaryColor} 0%, ${brand.primaryColor}e8 46%, ${brand.accentColor}c9 145%)` }}
       >
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -right-14 -top-24 h-80 w-80 rounded-full border border-white/20" />
-          <div className="absolute right-[18%] top-[-7rem] h-72 w-72 rounded-full bg-white/10 blur-3xl" />
-          <div className="absolute inset-y-0 left-[62%] w-px bg-white/12" />
-          <div className="absolute inset-y-0 left-[76%] w-px bg-white/8" />
-          <div className="absolute bottom-[-7rem] left-[42%] h-64 w-64 rounded-full bg-black/15 blur-3xl" />
+          <div
+            className="absolute inset-0 opacity-[0.07]"
+            style={{
+              backgroundImage:
+                'linear-gradient(rgba(255,255,255,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.6) 1px, transparent 1px)',
+              backgroundSize: '44px 44px',
+              maskImage: 'linear-gradient(to bottom, black, transparent 92%)',
+            }}
+          />
+          <div className="absolute -right-16 -top-28 h-96 w-96 rounded-full border border-white/20" />
+          <div className="absolute right-[22%] top-[-8rem] h-80 w-80 rounded-full bg-white/12 blur-3xl" />
+          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/20 to-transparent" />
         </div>
-        <div className="relative mx-auto flex max-w-7xl items-end gap-6 px-4 py-14 sm:px-6 md:py-20">
-          <button
-            onClick={() => navigate({ name: 'home' })}
-            className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-black/15 px-3 py-1.5 text-xs text-white backdrop-blur transition-colors hover:bg-black/25"
-          >
-            <ChevronLeft className="h-3.5 w-3.5" /> Voltar
-          </button>
-          <div className="max-w-2xl">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-black/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/80 backdrop-blur">
-              Catálogo exclusivo · {brand.name}
+
+        <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 md:pb-16 md:pt-8">
+          <BackBar label="Voltar" onBack={() => navigate({ name: 'home' })} tone="dark" />
+
+          <div className="mt-6 flex flex-col gap-8 md:mt-10 md:flex-row md:items-end md:justify-between">
+            <div className="max-w-2xl">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/25 bg-black/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/85 backdrop-blur">
+                <span className="h-1.5 w-1.5 rounded-full bg-white" />
+                Catálogo exclusivo · {brand.name}
+              </div>
+              <h1 className="font-serif text-4xl font-bold leading-[0.95] tracking-tight sm:text-6xl md:text-7xl">
+                {brand.name}
+              </h1>
+              <p className="mt-4 max-w-xl text-base text-white/90 sm:text-xl">{brand.tagline}</p>
+              {brand.description && (
+                <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/72 sm:text-base">{brand.description}</p>
+              )}
             </div>
-            <h1 className="font-serif text-4xl font-bold leading-none tracking-tight sm:text-6xl">
-              {brand.name}
-            </h1>
-            <p className="mt-3 text-base text-white/85 sm:text-xl">{brand.tagline}</p>
-            {brand.description && (
-              <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/72 sm:text-base">{brand.description}</p>
-            )}
+
+            <div className="flex shrink-0 gap-3 rounded-2xl border border-white/20 bg-black/15 p-4 backdrop-blur-md sm:gap-6 sm:p-5">
+              <div className="text-left">
+                <div className="font-serif text-2xl font-bold sm:text-3xl">{brand.products.length}</div>
+                <div className="text-[11px] uppercase tracking-wider text-white/65">produtos</div>
+              </div>
+              <div className="w-px bg-white/20" />
+              <div className="text-left">
+                <div className="font-serif text-2xl font-bold sm:text-3xl">{brand.categories.length}</div>
+                <div className="text-[11px] uppercase tracking-wider text-white/65">categorias</div>
+              </div>
+              {brand.videos.length > 0 && (
+                <>
+                  <div className="w-px bg-white/20" />
+                  <div className="text-left">
+                    <div className="font-serif text-2xl font-bold sm:text-3xl">{brand.videos.length}</div>
+                    <div className="text-[11px] uppercase tracking-wider text-white/65">vídeos</div>
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Body: left sidebar + products */}
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-        <div className="grid gap-6 md:grid-cols-[260px_1fr]">
-          {/* Left sidebar */}
-          <aside className="md:sticky md:top-20 md:self-start">
-            <div className="rounded-xl border border-border bg-card p-4">
-              <div className="mb-3 flex items-center gap-2">
-                <Package className="h-4 w-4" style={{ color: brand.primaryColor }} />
-                <span className="font-serif text-lg font-bold">{brand.name}</span>
-              </div>
-              <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                Produtos
-              </div>
-              <ul className="space-y-0.5 text-sm">
-                {brand.products.slice(0, 12).map((p) => (
-                  <li key={p.id}>
-                    <button
-                      onClick={() => navigate({ name: 'product', productSlug: p.slug })}
-                      className="block w-full truncate rounded-md px-2 py-1.5 text-left transition-colors hover:bg-muted"
-                    >
-                      {p.name}
-                    </button>
-                  </li>
-                ))}
-                {brand.products.length > 12 && (
-                  <li className="px-2 pt-1 text-xs text-muted-foreground">
-                    +{brand.products.length - 12} produtos…
-                  </li>
-                )}
-              </ul>
+        {/* How to order tip */}
+        <div className="mb-6 flex gap-3 rounded-2xl border border-border bg-card p-4 shadow-sm sm:items-center sm:p-5">
+          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#111] text-white">
+            <ShoppingBag className="h-4.5 w-4.5 h-4 w-4" />
+          </div>
+          <div className="min-w-0 flex-1 text-sm leading-relaxed text-muted-foreground">
+            <span className="font-medium text-foreground">Como pedir: </span>
+            toque no <strong className="text-foreground">+</strong> para adicionar à sacola,
+            abra a sacola, <strong className="text-foreground">gere o PDF</strong> do pedido e
+            envie para o seu <strong className="text-foreground">representante</strong>.
+          </div>
+          <button
+            type="button"
+            onClick={() => navigate({ name: 'reps' })}
+            className="hidden shrink-0 items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-muted sm:inline-flex"
+          >
+            <Users className="h-3.5 w-3.5" /> Representantes
+          </button>
+        </div>
 
-              <div className="mt-5 mb-2 flex items-center gap-2 border-t border-border pt-4">
-                <Tag className="h-4 w-4" style={{ color: brand.accentColor }} />
-                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+        <div className="grid gap-5 md:grid-cols-[240px_1fr]">
+          {/* Sidebar accordion */}
+          <aside className="md:sticky md:top-20 md:self-start">
+            <div className="overflow-hidden rounded-2xl border border-border bg-card">
+              <div className="flex items-center gap-2 border-b border-border px-4 py-3">
+                <Package className="h-4 w-4" style={{ color: brand.primaryColor }} />
+                <span className="font-serif text-base font-bold">{brand.name}</span>
+              </div>
+
+              {/* Produtos accordion */}
+              <button
+                type="button"
+                onClick={() => setOpenProducts((v) => !v)}
+                className="flex w-full items-center gap-2 px-4 py-3 text-left transition-colors hover:bg-muted/60"
+              >
+                <Package className="h-4 w-4 text-muted-foreground" />
+                <span className="flex-1 text-xs font-semibold uppercase tracking-[0.12em] text-muted-foreground">
+                  Produtos
+                </span>
+                <span className="rounded-full bg-muted px-1.5 py-0.5 text-[10px] font-semibold text-muted-foreground">
+                  {brand.products.length}
+                </span>
+                <ChevronDown
+                  className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${openProducts ? 'rotate-180' : ''}`}
+                />
+              </button>
+              {openProducts && (
+                <ul className="max-h-40 space-y-0.5 overflow-y-auto overscroll-contain border-t border-border/60 px-2 pb-3 pt-1 scroll-area sm:max-h-48">
+                  {brand.products.slice(0, 20).map((p) => (
+                    <li key={p.id}>
+                      <button
+                        onClick={() => navigate({ name: 'product', productSlug: p.slug })}
+                        className="block w-full truncate rounded-lg px-2.5 py-2 text-left text-sm transition-colors hover:bg-muted"
+                      >
+                        {p.name}
+                      </button>
+                    </li>
+                  ))}
+                  {brand.products.length > 20 && (
+                    <li className="px-2.5 pt-1 text-xs text-muted-foreground">
+                      +{brand.products.length - 20} produtos…
+                    </li>
+                  )}
+                </ul>
+              )}
+
+              {/* Categorias accordion */}
+              <button
+                type="button"
+                onClick={() => setOpenCategories((v) => !v)}
+                className="flex w-full items-center gap-2 border-t border-border px-4 py-3 text-left transition-colors hover:bg-muted/60"
+              >
+                <Tag className="h-4 w-4 text-muted-foreground" />
+                <span className="flex-1 text-xs font-semibold uppercase tracking-[0.12em] text-muted-foreground">
                   Categorias
                 </span>
-              </div>
-              <ul className="space-y-0.5 text-sm">
-                <li>
-                  <button
-                    onClick={() => setCatSlug(null)}
-                    className={`block w-full rounded-md px-2 py-1.5 text-left transition-colors hover:bg-muted ${catSlug === null ? 'font-semibold' : ''}`}
-                    style={catSlug === null ? { color: brand.primaryColor } : undefined}
-                  >
-                    Todas
-                  </button>
-                </li>
-                {brand.categories.map((c) => (
-                  <li key={c.id}>
+                <ChevronDown
+                  className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${openCategories ? 'rotate-180' : ''}`}
+                />
+              </button>
+              {openCategories && (
+                <ul className="max-h-40 space-y-0.5 overflow-y-auto overscroll-contain border-t border-border/60 px-2 pb-3 pt-1 scroll-area sm:max-h-48">
+                  <li>
                     <button
-                      onClick={() => setCatSlug(c.slug)}
-                      className={`block w-full rounded-md px-2 py-1.5 text-left transition-colors hover:bg-muted ${catSlug === c.slug ? 'font-semibold' : ''}`}
-                      style={catSlug === c.slug ? { color: brand.primaryColor } : undefined}
+                      onClick={() => setCatSlug(null)}
+                      className={`block w-full rounded-lg px-2.5 py-2 text-left text-sm transition-colors hover:bg-muted ${catSlug === null ? 'font-semibold' : ''}`}
+                      style={catSlug === null ? { color: brand.primaryColor } : undefined}
                     >
-                      {c.name}
+                      Todas
                     </button>
                   </li>
-                ))}
-              </ul>
+                  {brand.categories.map((c) => (
+                    <li key={c.id}>
+                      <button
+                        onClick={() => setCatSlug(c.slug)}
+                        className={`block w-full rounded-lg px-2.5 py-2 text-left text-sm transition-colors hover:bg-muted ${catSlug === c.slug ? 'font-semibold' : ''}`}
+                        style={catSlug === c.slug ? { color: brand.primaryColor } : undefined}
+                      >
+                        {c.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </aside>
 
-          {/* Main: search + grid */}
+          {/* Main */}
           <div>
-            <div className="mb-4 flex items-center justify-between gap-3">
+            <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <h2 className="font-serif text-xl font-bold">
                 {catSlug
                   ? brand.categories.find((c) => c.slug === catSlug)?.name
@@ -170,7 +245,7 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
                   ({products.length})
                 </span>
               </h2>
-              <div className="relative w-48 sm:w-64">
+              <div className="relative w-full sm:w-64">
                 <Search className="absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                 <Input
                   value={q}
@@ -186,7 +261,7 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
                 Nenhum produto encontrado.
               </div>
             ) : (
-              <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 xl:grid-cols-4">
+              <div className="grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-2 lg:grid-cols-3">
                 {products.map((p) => (
                   <ProductCard
                     key={p.id}
@@ -205,7 +280,6 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
               </div>
             )}
 
-            {/* Brand videos */}
             {brand.videos.length > 0 && (
               <div className="mt-12">
                 <div className="mb-4 flex items-center gap-2">
@@ -214,32 +288,28 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
                     Vídeos da {brand.name}
                   </h2>
                 </div>
-                <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-                  {brand.videos.map((v) => {
-                    const id = youtubeId(v.youtubeUrl)
-                    return (
-                      <button
-                        key={v.id}
-                        onClick={() => setActiveVideo(v.youtubeUrl)}
-                        className="card-hover group relative aspect-video overflow-hidden rounded-lg border border-border bg-muted"
-                      >
-                        { }
-                        <img
-                          src={youtubeThumb(v.youtubeUrl)}
-                          alt={v.title}
-                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/40">
-                          <span className="grid h-10 w-10 place-items-center rounded-full bg-red-600 text-white shadow-lg transition-transform group-hover:scale-110">
-                            <Play className="h-4 w-4 translate-x-0.5 fill-white" />
-                          </span>
-                        </div>
-                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2 text-left text-xs font-medium text-white">
-                          <div className="line-clamp-2">{v.title}</div>
-                        </div>
-                      </button>
-                    )
-                  })}
+                <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-4">
+                  {brand.videos.map((v) => (
+                    <button
+                      key={v.id}
+                      onClick={() => setActiveVideo(v.youtubeUrl)}
+                      className="card-hover group relative aspect-video overflow-hidden rounded-lg border border-border bg-muted"
+                    >
+                      <img
+                        src={youtubeThumb(v.youtubeUrl)}
+                        alt={v.title}
+                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/40">
+                        <span className="grid h-10 w-10 place-items-center rounded-full bg-red-600 text-white shadow-lg transition-transform group-hover:scale-110">
+                          <Play className="h-4 w-4 translate-x-0.5 fill-white" />
+                        </span>
+                      </div>
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2 text-left text-xs font-medium text-white">
+                        <div className="line-clamp-2">{v.title}</div>
+                      </div>
+                    </button>
+                  ))}
                 </div>
               </div>
             )}
@@ -247,30 +317,30 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
         </div>
       </section>
 
-      {/* Video modal */}
       {activeVideo && (
         <div
           className="fixed inset-0 z-[60] flex items-center justify-center bg-black/80 p-4"
           onClick={() => setActiveVideo(null)}
         >
           <div
-            className="relative aspect-video w-full max-w-3xl overflow-hidden rounded-xl bg-black shadow-2xl"
+            className="relative w-full max-w-3xl overflow-hidden rounded-xl bg-black"
             onClick={(e) => e.stopPropagation()}
           >
             <button
+              className="absolute right-2 top-2 z-10 grid h-9 w-9 place-items-center rounded-full bg-black/70 text-white"
               onClick={() => setActiveVideo(null)}
-              aria-label="Fechar"
-              className="absolute right-3 top-3 z-10 grid h-9 w-9 place-items-center rounded-full bg-black/60 text-white transition-colors hover:bg-black/80"
             >
-              <X className="h-4 w-4" />
+              <X className="h-5 w-5" />
             </button>
-            <iframe
-              src={youtubeEmbed(activeVideo) + '?autoplay=1'}
-              title="Vídeo da marca"
-              className="h-full w-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+            <div className="aspect-video">
+              <iframe
+                title="Vídeo"
+                src={`https://www.youtube.com/embed/${youtubeId(activeVideo)}?autoplay=1`}
+                className="h-full w-full"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       )}

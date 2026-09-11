@@ -5,8 +5,9 @@ import { api } from '@/lib/api'
 import type { BlogArticle } from '@/lib/types'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { ChevronLeft, Clock, ArrowRight } from 'lucide-react'
+import { Clock, ArrowRight } from 'lucide-react'
 import { useApp } from '@/lib/store-app'
+import { BackBar } from '@/components/shared/BackBar'
 import { ArticleCover } from '@/components/shared/ArticleCover'
 
 export function ArticleView({ articleSlug }: { articleSlug: string }) {
@@ -43,12 +44,7 @@ export function ArticleView({ articleSlug }: { articleSlug: string }) {
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'blog' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Blog
-      </button>
+      <BackBar label="Blog" onBack={() => navigate({ name: 'blog' })} />
 
       <Badge className="mb-3">{article.category}</Badge>
       <h1 className="font-serif text-3xl font-bold leading-tight sm:text-4xl">

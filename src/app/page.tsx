@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from 'react'
-import { useApp } from '@/lib/store-app'
+import { useApp, initHistorySync } from '@/lib/store-app'
 import { api } from '@/lib/api'
 import type { Brand, Category, SiteSettings } from '@/lib/types'
 import { Header } from '@/components/shared/Header'
@@ -59,6 +59,12 @@ export default function Page() {
   React.useEffect(() => {
     void loadSite()
   }, [loadSite])
+
+  React.useEffect(() => {
+    // Makes the browser/device back button (and swipe-back gestures) move
+    // between the app's own screens instead of leaving the site.
+    initHistorySync()
+  }, [])
 
   if (loading) {
     return (

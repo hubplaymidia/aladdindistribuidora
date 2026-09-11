@@ -9,9 +9,10 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { YouTubeIcon } from '@/components/icons/SocialIcons'
 import {
-  ChevronLeft, Search, GraduationCap, Star, Clock, PlayCircle, Sparkles,
+  Search, GraduationCap, Star, Clock, PlayCircle, Sparkles,
 } from 'lucide-react'
 import { useApp } from '@/lib/store-app'
+import { BackBar } from '@/components/shared/BackBar'
 import { youtubeThumb } from '@/lib/format'
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -53,12 +54,7 @@ export function AcademyView() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'home' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Início
-      </button>
+      <BackBar label="Início" onBack={() => navigate({ name: 'home' })} />
 
       <header className="relative mb-8 overflow-hidden rounded-2xl academy-dark p-8 text-white sm:p-10">
         <div className="pointer-events-none absolute -right-10 -top-10 h-48 w-48 rounded-full bg-amber-400/10 blur-3xl" />
@@ -93,16 +89,34 @@ export function AcademyView() {
         </div>
       ) : (
         <Tabs defaultValue="destaque">
-          <TabsList className="mb-6 flex flex-wrap">
-            <TabsTrigger value="destaque">Destaques</TabsTrigger>
-            <TabsTrigger value="educacao-financeira">Educação Financeira</TabsTrigger>
-            <TabsTrigger value="vendas">Vendas</TabsTrigger>
-            <TabsTrigger value="maquiagem">Maquiagem</TabsTrigger>
-            <TabsTrigger value="financas">Finanças</TabsTrigger>
-            <TabsTrigger value="gestao">Gestão</TabsTrigger>
-            <TabsTrigger value="atendimento">Atendimento</TabsTrigger>
-            <TabsTrigger value="desenvolvimento-pessoal">Desenvolvimento Pessoal</TabsTrigger>
-          </TabsList>
+          <div className="-mx-4 mb-6 overflow-x-auto overscroll-x-contain px-4 scroll-area touch-pan-x sm:mx-0 sm:px-0">
+            <TabsList className="inline-flex h-auto min-w-max w-max gap-1 rounded-xl bg-muted/80 p-1">
+              <TabsTrigger value="destaque" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Destaques
+              </TabsTrigger>
+              <TabsTrigger value="educacao-financeira" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Educação Financeira
+              </TabsTrigger>
+              <TabsTrigger value="vendas" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Vendas
+              </TabsTrigger>
+              <TabsTrigger value="maquiagem" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Maquiagem
+              </TabsTrigger>
+              <TabsTrigger value="financas" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Finanças
+              </TabsTrigger>
+              <TabsTrigger value="gestao" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Gestão
+              </TabsTrigger>
+              <TabsTrigger value="atendimento" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Atendimento
+              </TabsTrigger>
+              <TabsTrigger value="desenvolvimento-pessoal" className="shrink-0 whitespace-nowrap px-3 py-2 text-xs sm:text-sm">
+                Desenvolvimento Pessoal
+              </TabsTrigger>
+            </TabsList>
+          </div>
 
           <TabsContent value="destaque" className="mt-0">
             <CourseGrid

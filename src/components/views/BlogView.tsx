@@ -5,8 +5,9 @@ import { api } from '@/lib/api'
 import type { BlogArticle } from '@/lib/types'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { ChevronLeft, Clock, ArrowRight } from 'lucide-react'
+import { Clock, ArrowRight } from 'lucide-react'
 import { useApp } from '@/lib/store-app'
+import { BackBar } from '@/components/shared/BackBar'
 import { ArticleCover } from '@/components/shared/ArticleCover'
 
 const CATEGORIES = [
@@ -33,12 +34,7 @@ export function BlogView() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'home' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Início
-      </button>
+      <BackBar label="Início" onBack={() => navigate({ name: 'home' })} />
 
       <header className="mb-8">
         <h1 className="font-serif text-3xl font-bold sm:text-4xl">Blog Aladdin</h1>

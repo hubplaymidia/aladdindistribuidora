@@ -49,7 +49,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
               Navegação
             </div>
             <ul className="space-y-2 text-sm">
-              <FooterLink onClick={() => navigate({ name: 'home' })}>Inicial</FooterLink>
+              <FooterLink onClick={() => navigate({ name: 'home' })}>Início</FooterLink>
               <FooterLink onClick={() => navigate({ name: 'catalog' })}>Produtos</FooterLink>
               <FooterLink onClick={() => navigate({ name: 'academy' })}>Academy</FooterLink>
               <FooterLink onClick={() => navigate({ name: 'blog' })}>Blog</FooterLink>

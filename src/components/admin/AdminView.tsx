@@ -17,6 +17,7 @@ import {
 import {
   LogOut, Lock, Sparkles, Plus, Pencil, Trash2, Save, X, Check, ShoppingBag,
   Tags, Users, GraduationCap, FileText, Settings as SettingsIcon, LayoutGrid, Video,
+  ArrowUp, ArrowDown, Star, ImageIcon,
 } from 'lucide-react'
 import { toast } from 'sonner'
 import type {
@@ -105,7 +106,7 @@ export function AdminView() {
               Entrar
             </Button>
             <p className="text-center text-xs text-muted-foreground">
-              Demo: <code className="bg-muted px-1 py-0.5 rounded">admin</code> / <code className="bg-muted px-1 py-0.5 rounded">aladdin123</code>
+              Use as credenciais do administrador. Altere a senha em Site → Segurança após o login.
             </p>
           </CardContent>
         </Card>
@@ -133,17 +134,38 @@ export function AdminView() {
       </header>
 
       <Tabs defaultValue="settings">
-        <ScrollArea className="w-full whitespace-nowrap scroll-area">
-          <TabsList className="flex">
-            <TabsTrigger value="settings"><SettingsIcon className="mr-1.5 h-4 w-4" />Site</TabsTrigger>
-            <TabsTrigger value="brands"><LayoutGrid className="mr-1.5 h-4 w-4" />Marcas</TabsTrigger>
-            <TabsTrigger value="categories"><Tags className="mr-1.5 h-4 w-4" />Categorias</TabsTrigger>
-            <TabsTrigger value="products"><ShoppingBag className="mr-1.5 h-4 w-4" />Produtos</TabsTrigger>
-            <TabsTrigger value="reps"><Users className="mr-1.5 h-4 w-4" />Representantes</TabsTrigger>
-            <TabsTrigger value="courses"><GraduationCap className="mr-1.5 h-4 w-4" />Cursos</TabsTrigger>
-            <TabsTrigger value="blog"><FileText className="mr-1.5 h-4 w-4" />Blog</TabsTrigger>
+        <div className="-mx-4 overflow-x-auto overscroll-x-contain px-4 scroll-area touch-pan-x sm:mx-0 sm:px-0">
+          <TabsList className="inline-flex h-auto min-w-max w-max gap-1 rounded-xl bg-muted/80 p-1">
+            <TabsTrigger value="settings" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <SettingsIcon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Site
+            </TabsTrigger>
+            <TabsTrigger value="brands" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <LayoutGrid className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Marcas
+            </TabsTrigger>
+            <TabsTrigger value="categories" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <Tags className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Categorias
+            </TabsTrigger>
+            <TabsTrigger value="products" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <ShoppingBag className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Produtos
+            </TabsTrigger>
+            <TabsTrigger value="reps" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <Users className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Representantes
+            </TabsTrigger>
+            <TabsTrigger value="courses" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <GraduationCap className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Cursos
+            </TabsTrigger>
+            <TabsTrigger value="blog" className="shrink-0 gap-1.5 px-3 py-2 text-xs sm:text-sm">
+              <FileText className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+              Blog
+            </TabsTrigger>
           </TabsList>
-        </ScrollArea>
+        </div>
 
         <TabsContent value="settings" className="mt-4"><SettingsAdmin /></TabsContent>
         <TabsContent value="brands" className="mt-4"><BrandsAdmin /></TabsContent>
@@ -216,6 +238,7 @@ function SettingsAdmin() {
   const upd = (k: keyof SiteSettings, v: any) => setS((p) => p ? { ...p, [k]: v } : p)
 
   return (
+    <>
     <Card>
       <CardHeader className="flex-row items-center justify-between">
         <CardTitle>Configurações do site</CardTitle>
@@ -286,6 +309,74 @@ function SettingsAdmin() {
             <Input value={s.mapEmbed ?? ''} onChange={(e) => upd('mapEmbed', e.target.value)} />
           </Field>
         </div>
+      </CardContent>
+    </Card>
+    <ChangePasswordCard />
+    </>
+  )
+}
+
+function ChangePasswordCard() {
+  const [currentPassword, setCurrentPassword] = React.useState('')
+  const [newPassword, setNewPassword] = React.useState('')
+  const [confirm, setConfirm] = React.useState('')
+  const [saving, setSaving] = React.useState(false)
+
+  const submit = async () => {
+    if (newPassword !== confirm) {
+      toast.error('A confirmação não confere com a nova senha.')
+      return
+    }
+    if (newPassword.length < 6) {
+      toast.error('A nova senha deve ter pelo menos 6 caracteres.')
+      return
+    }
+    setSaving(true)
+    try {
+      await api('/api/admin/login', {
+        method: 'POST',
+        body: JSON.stringify({
+          action: 'change-password',
+          currentPassword,
+          newPassword,
+        }),
+      })
+      toast.success('Senha alterada com sucesso.')
+      setCurrentPassword('')
+      setNewPassword('')
+      setConfirm('')
+    } catch (e: any) {
+      toast.error(e?.message || 'Não foi possível alterar a senha.')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <Card className="mt-4">
+      <CardHeader className="flex-row items-center justify-between">
+        <CardTitle className="flex items-center gap-2 text-base">
+          <Lock className="h-4 w-4" /> Segurança — trocar senha do admin
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-3">
+        <p className="text-xs text-muted-foreground">
+          Altere a senha padrão para impedir acesso não autorizado. Mínimo 6 caracteres.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-3">
+          <Field label="Senha atual">
+            <Input type="password" autoComplete="current-password" value={currentPassword} onChange={(e) => setCurrentPassword(e.target.value)} />
+          </Field>
+          <Field label="Nova senha">
+            <Input type="password" autoComplete="new-password" value={newPassword} onChange={(e) => setNewPassword(e.target.value)} />
+          </Field>
+          <Field label="Confirmar nova senha">
+            <Input type="password" autoComplete="new-password" value={confirm} onChange={(e) => setConfirm(e.target.value)} />
+          </Field>
+        </div>
+        <Button onClick={submit} disabled={saving || !currentPassword || !newPassword}>
+          {saving ? 'Salvando…' : 'Atualizar senha'}
+        </Button>
       </CardContent>
     </Card>
   )
@@ -897,35 +988,148 @@ function ImageManager({
   images: string[]
   onChange: (imgs: string[]) => void
 }) {
+  const move = (from: number, to: number) => {
+    if (to < 0 || to >= images.length) return
+    const next = [...images]
+    const [item] = next.splice(from, 1)
+    next.splice(to, 0, item)
+    onChange(next)
+  }
+
+  const makePrincipal = (index: number) => {
+    if (index === 0) return
+    move(index, 0)
+  }
+
   return (
-    <div className="mt-3">
-      <div className="mb-1 flex items-center justify-between">
-        <label className="text-xs font-medium text-muted-foreground">
-          Imagens do produto (até 6)
+    <div className="mt-3 space-y-3">
+      <div className="flex items-center justify-between gap-2">
+        <label className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
+          <ImageIcon className="h-3.5 w-3.5" />
+          Imagens do produto
+          <span className="rounded-full bg-muted px-1.5 py-0.5 text-[10px] font-semibold text-foreground">
+            {images.length}/6
+          </span>
         </label>
         {images.length < 6 && (
-          <Button type="button" variant="outline" size="sm" onClick={() => onChange([...images, ''])}>
-            <Plus className="h-3.5 w-3.5" /> Adicionar imagem
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            className="h-8 gap-1.5"
+            onClick={() => onChange([...images, ''])}
+          >
+            <Plus className="h-3.5 w-3.5" /> Adicionar
           </Button>
         )}
       </div>
-      <div className="grid gap-2 sm:grid-cols-2">
+
+      {images.length === 0 && (
+        <div className="rounded-xl border border-dashed border-border bg-muted/40 px-4 py-6 text-center">
+          <ImageIcon className="mx-auto mb-2 h-8 w-8 text-muted-foreground/50" />
+          <p className="text-xs text-muted-foreground">
+            Nenhuma imagem. Adicione até 6 URLs. A primeira será a capa.
+          </p>
+        </div>
+      )}
+
+      <div className="grid gap-2.5">
         {images.map((img, i) => (
-          <div key={i} className="flex gap-2">
-            <div className="h-10 w-10 shrink-0 overflow-hidden rounded bg-muted">
-              {img ? <img src={img} alt="" className="h-full w-full object-cover" /> : null}
+          <div
+            key={i}
+            className={`group flex items-center gap-2 rounded-xl border bg-card p-2 transition-shadow hover:shadow-sm ${
+              i === 0 ? 'border-amber-500/40 ring-1 ring-amber-500/20' : 'border-border'
+            }`}
+          >
+            <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-muted ring-1 ring-black/5">
+              {img ? (
+                <img src={img} alt="" className="h-full w-full object-cover" />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center">
+                  <ImageIcon className="h-5 w-5 text-muted-foreground/40" />
+                </div>
+              )}
+              {i === 0 && (
+                <span className="absolute left-0.5 top-0.5 rounded bg-amber-500 px-1 py-px text-[8px] font-bold uppercase text-white shadow">
+                  Capa
+                </span>
+              )}
             </div>
-            <Input
-              value={img}
-              placeholder="/products/..."
-              onChange={(e) => { const next = [...images]; next[i] = e.target.value; onChange(next) }}
-            />
-            <Button type="button" variant="ghost" size="icon" onClick={() => { const next = [...images]; next.splice(i, 1); onChange(next) }}>
+
+            <div className="min-w-0 flex-1 space-y-1">
+              <Input
+                value={img}
+                placeholder="/products/sua-imagem.jpg"
+                className="h-8 text-xs"
+                onChange={(e) => {
+                  const next = [...images]
+                  next[i] = e.target.value
+                  onChange(next)
+                }}
+              />
+              <div className="flex items-center gap-1">
+                <span className="text-[10px] text-muted-foreground">Posição {i + 1}</span>
+                {i !== 0 && (
+                  <button
+                    type="button"
+                    className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-[10px] font-medium text-amber-700 transition-colors hover:bg-amber-500/10"
+                    onClick={() => makePrincipal(i)}
+                    title="Definir como capa"
+                  >
+                    <Star className="h-3 w-3" /> Capa
+                  </button>
+                )}
+              </div>
+            </div>
+
+            <div className="flex shrink-0 flex-col gap-0.5">
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                className="h-7 w-7"
+                disabled={i === 0}
+                onClick={() => move(i, i - 1)}
+                title="Mover para cima"
+              >
+                <ArrowUp className="h-3.5 w-3.5" />
+              </Button>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                className="h-7 w-7"
+                disabled={i === images.length - 1}
+                onClick={() => move(i, i + 1)}
+                title="Mover para baixo"
+              >
+                <ArrowDown className="h-3.5 w-3.5" />
+              </Button>
+            </div>
+
+            <Button
+              type="button"
+              variant="ghost"
+              size="icon"
+              className="h-8 w-8 shrink-0"
+              onClick={() => {
+                const next = [...images]
+                next.splice(i, 1)
+                onChange(next)
+              }}
+              title="Remover"
+            >
               <X className="h-4 w-4 text-destructive" />
             </Button>
           </div>
         ))}
       </div>
+
+      {images.length > 0 && (
+        <p className="text-[11px] text-muted-foreground">
+          Arraste a ordem com as setas. A primeira imagem aparece como capa no catálogo e no detalhe.
+        </p>
+      )}
     </div>
   )
 }

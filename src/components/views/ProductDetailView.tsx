@@ -7,9 +7,10 @@ import { api } from '@/lib/api'
 import type { Product, Brand } from '@/lib/types'
 import { ProductCard } from '@/components/shared/ProductCard'
 import { BrandTheme } from '@/components/shared/BrandTheme'
+import { BackBar } from '@/components/shared/BackBar'
 import { Button } from '@/components/ui/button'
 import { formatCurrency } from '@/lib/format'
-import { ShoppingBag, Minus, Plus, ChevronLeft, Check, Truck, ShieldCheck, Star } from 'lucide-react'
+import { ShoppingBag, Minus, Plus, Check, Truck, ShieldCheck, Star } from 'lucide-react'
 
 export function ProductDetailView({
   productSlug,
@@ -81,13 +82,10 @@ export function ProductDetailView({
   // Wrap in brand theme if we know the brand
   const content = (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate(brand ? { name: 'brand', brandSlug: brand.slug } : { name: 'catalog' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" />
-        {brand ? `Catálogo ${brand.name}` : 'Catálogo'}
-      </button>
+      <BackBar
+        label={brand ? `Catálogo ${brand.name}` : 'Catálogo'}
+        onBack={() => navigate(brand ? { name: 'brand', brandSlug: brand.slug } : { name: 'catalog' })}
+      />
 
       <div className="grid gap-8 md:grid-cols-2">
         {/* Gallery */}

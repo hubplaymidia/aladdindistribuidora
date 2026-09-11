@@ -9,8 +9,9 @@ import { Label } from '@/components/ui/label'
 import {
   WhatsAppIcon, InstagramIcon, WazeIcon, GoogleMapsIcon,
 } from '@/components/icons/SocialIcons'
-import { ChevronLeft, Phone, MapPin, Mail, Clock } from 'lucide-react'
+import { Phone, MapPin, Mail, Clock } from 'lucide-react'
 import { useApp } from '@/lib/store-app'
+import { BackBar } from '@/components/shared/BackBar'
 import { toast } from 'sonner'
 
 export function ContactView({ settings }: { settings: SiteSettings }) {
@@ -29,12 +30,7 @@ export function ContactView({ settings }: { settings: SiteSettings }) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <button
-        onClick={() => navigate({ name: 'home' })}
-        className="mb-4 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-      >
-        <ChevronLeft className="h-4 w-4" /> Início
-      </button>
+      <BackBar label="Início" onBack={() => navigate({ name: 'home' })} />
 
       <header className="mb-8">
         <h1 className="font-serif text-3xl font-bold sm:text-4xl">Contato</h1>

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s · Aladdin Distribuidora",
   },
   description:
-    "Distribuidora oficial de cosméticos e produtos capilares em Goiás e no Distrito Federal. Representamos Knut Hair Care, Dailus, Labotrat, Doha Professional, City Girls, SP Colors, Sffumato Beauty e Super Poderesas. +9 anos de experiência.",
+    "Distribuidora oficial de cosméticos e produtos capilares em Goiás e no Distrito Federal. Representamos Knut Hair Care, Dailus, Labotrat, Doha Professional, City Girls, SP Colors, Sffumato Beauty e #SUPER PODERES. +9 anos de experiência.",
   keywords: [
     "Aladdin Distribuidora",
     "cosméticos Goiânia",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "City Girls",
     "SP Colors",
     "Sffumato Beauty",
-    "Super Poderesas",
+    "#SUPER PODERES",
     "distribuidora cosméticos DF",
     "revenda cosméticos",
     "maquiagem profissional",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     title: "Aladdin Distribuidora — Beleza que move o seu negócio",
     description:
-      "Distribuidora oficial de cosméticos e produtos capilares em Goiás e no DF. +9 anos de experiência. Marcas: Knut, Dailus, Labotrat, Doha, City Girls, SP Colors, Sffumato, Super Poderesas.",
+      "Distribuidora oficial de cosméticos e produtos capilares em Goiás e no DF. +9 anos de experiência. Marcas: Knut, Dailus, Labotrat, Doha, City Girls, SP Colors, Sffumato, #SUPER PODERES.",
     images: [
       {
         url: "/hero/hero-main.png",
