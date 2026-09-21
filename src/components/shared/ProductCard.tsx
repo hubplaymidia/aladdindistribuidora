@@ -20,6 +20,8 @@ type CardProps = {
   minQuantity?: number
   description?: string
   featured?: boolean
+  /** Quando 0, o produto está sem estoque: badge "Esgotado" e sem botão de compra. */
+  quantity?: number | null
 }
 
 export function ProductCard({
@@ -36,6 +38,7 @@ export function ProductCard({
   minQuantity = 1,
   description,
   featured,
+  quantity,
 }: CardProps) {
   const navigate = useApp((s) => s.navigate)
   const add = useCart((s) => s.add)
@@ -44,9 +47,11 @@ export function ProductCard({
   const secondImage = images?.[1] ?? null
   const shown = hover && secondImage ? secondImage : image
   const glow = brandColor ?? '#C9A227'
+  const esgotado = quantity === 0
 
   const handleAdd = (e: React.MouseEvent) => {
     e.stopPropagation()
+    if (esgotado) return
     add({
       productId: id,
       slug,
@@ -85,9 +90,15 @@ export function ProductCard({
 
         <div className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 transition-all duration-700 group-hover:translate-x-full group-hover:opacity-100" />
 
-        {featured && (
+        {featured && !esgotado && (
           <span className="absolute left-2 top-2 rounded-md bg-amber-500 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-white shadow">
             Destaque
+          </span>
+        )}
+
+        {esgotado && (
+          <span className="absolute left-2 top-2 rounded-md bg-zinc-800/90 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-white shadow">
+            Sem estoque
           </span>
         )}
 
@@ -142,16 +153,21 @@ export function ProductCard({
           </div>
 
           <button
-            aria-label="Adicionar à sacola"
-            title="Adicionar à sacola"
-            className={`grid h-10 w-10 shrink-0 place-items-center rounded-full shadow-md transition-all duration-200 hover:scale-110 active:scale-95 ${
-              added
-                ? 'bg-emerald-500 text-white'
-                : 'bg-[#111] text-white hover:bg-[#2a2a2a]'
+            aria-label={esgotado ? 'Produto sem estoque' : 'Adicionar à sacola'}
+            title={esgotado ? 'Produto sem estoque' : 'Adicionar à sacola'}
+            disabled={esgotado}
+            className={`grid h-10 w-10 shrink-0 place-items-center rounded-full shadow-md transition-all duration-200 ${
+              esgotado
+                ? 'cursor-not-allowed bg-zinc-300 text-zinc-500'
+                : added
+                  ? 'bg-emerald-500 text-white hover:scale-110 active:scale-95'
+                  : 'bg-[#111] text-white hover:scale-110 active:scale-95 hover:bg-[#2a2a2a]'
             }`}
             onClick={handleAdd}
           >
-            {added ? (
+            {esgotado ? (
+              <span className="text-lg leading-none">–</span>
+            ) : added ? (
               <span className="text-sm font-bold">✓</span>
             ) : (
               <Plus className="h-5 w-5" strokeWidth={2.4} />

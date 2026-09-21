@@ -541,6 +541,12 @@ function ProductsAdmin() {
   const [brands, setBrands] = React.useState<Brand[]>([])
   const [cats, setCats] = React.useState<Category[]>([])
   const [editing, setEditing] = React.useState<Partial<Product> & { images?: string[] } | null>(null)
+  // Filtros da lista: por marca + busca por nome/slug (mantém DAILUS separada das outras marcas)
+  const [brandFilter, setBrandFilter] = React.useState<string>('all')
+  const [search, setSearch] = React.useState('')
+  // Guarda a última quantidade positiva para restaurar ao desmarcar "Sem estoque"
+  const lastQtyRef = React.useRef<number>(1)
+  const semEstoqueChecked = editing ? (editing.quantity ?? 0) === 0 : false
 
   const load = React.useCallback(() => {
     Promise.all([
@@ -570,15 +576,40 @@ function ProductsAdmin() {
     load()
   }
 
+  const filtered = items.filter((p) => {
+    if (brandFilter !== 'all' && p.brandId !== brandFilter) return false
+    if (search.trim()) {
+      const t = search.toLowerCase()
+      if (!p.name.toLowerCase().includes(t) && !(p.slug ?? '').toLowerCase().includes(t)) return false
+    }
+    return true
+  })
+
   return (
     <Card>
       <CardHeader className="flex-row items-center justify-between">
-        <CardTitle>Produtos ({items.length})</CardTitle>
+        <CardTitle>Produtos ({filtered.length})</CardTitle>
         <Button size="sm" onClick={() => setEditing({ name: '', price: 0, showPrice: true, quantity: 0, minQuantity: 1, images: [], featured: false, active: true, order: 0 })}>
           <Plus className="h-4 w-4" /> Novo produto
         </Button>
       </CardHeader>
       <CardContent>
+        {/* Filtros: marca + busca — cadastro organizado por marca, sem misturar tudo numa página só */}
+        <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center">
+          <Select value={brandFilter} onValueChange={setBrandFilter}>
+            <SelectTrigger className="w-full sm:w-64">
+              <SelectValue placeholder="Todas as marcas" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">Todas as marcas ({items.length})</SelectItem>
+              {brands.map((b) => {
+                const count = items.filter((p) => p.brandId === b.id).length
+                return <SelectItem key={b.id} value={b.id}>{b.name} ({count})</SelectItem>
+              })}
+            </SelectContent>
+          </Select>
+          <Input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Buscar produto por nome ou slug…" className="sm:max-w-xs" />
+        </div>
         {editing && (
           <div className="mb-4 rounded-xl border border-amber-300 bg-amber-50 p-4">
             <div className="mb-3 flex items-center justify-between">
@@ -604,7 +635,18 @@ function ProductsAdmin() {
               </Field>
               <Field label="Preço (R$)"><Input type="number" step="0.01" value={editing.price ?? 0} onChange={(e) => setEditing({ ...editing, price: Number(e.target.value) })} /></Field>
               <Field label="Preço antigo (opcional)"><Input type="number" step="0.01" value={editing.oldPrice ?? ''} onChange={(e) => setEditing({ ...editing, oldPrice: e.target.value ? Number(e.target.value) : null })} /></Field>
-              <Field label="Quantidade em estoque"><Input type="number" value={editing.quantity ?? 0} onChange={(e) => setEditing({ ...editing, quantity: Number(e.target.value) })} /></Field>
+              <Field label="Quantidade em estoque">
+                <Input
+                  type="number"
+                  value={editing.quantity ?? 0}
+                  disabled={semEstoqueChecked}
+                  onChange={(e) => {
+                    const v = Number(e.target.value)
+                    if (v > 0) lastQtyRef.current = v
+                    setEditing({ ...editing, quantity: v })
+                  }}
+                />
+              </Field>
               <Field label="Quantidade mínima"><Input type="number" value={editing.minQuantity ?? 1} onChange={(e) => setEditing({ ...editing, minQuantity: Number(e.target.value) })} /></Field>
               <Field label="Unidade (ex: 300ml)"><Input value={editing.unit ?? ''} onChange={(e) => setEditing({ ...editing, unit: e.target.value })} /></Field>
               <Field label="Ordem"><Input type="number" value={editing.order ?? 0} onChange={(e) => setEditing({ ...editing, order: Number(e.target.value) })} /></Field>
@@ -631,13 +673,32 @@ function ProductsAdmin() {
                 <input type="checkbox" checked={editing.active ?? true} onChange={(e) => setEditing({ ...editing, active: e.target.checked })} />
                 Ativo
               </label>
+              <label
+                className="flex items-center gap-2 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-sm font-medium text-amber-900"
+                title="Marca o produto como esgotado no catálogo (quantidade 0)"
+              >
+                <input
+                  type="checkbox"
+                  checked={semEstoqueChecked}
+                  onChange={(e) => {
+                    if (e.target.checked) {
+                      const cur = editing.quantity ?? 0
+                      if (cur > 0) lastQtyRef.current = cur
+                      setEditing({ ...editing, quantity: 0 })
+                    } else {
+                      setEditing({ ...editing, quantity: Math.max(1, lastQtyRef.current || 1) })
+                    }
+                  }}
+                />
+                Sem estoque (esgotado)
+              </label>
               <Button className="ml-auto" size="sm" onClick={save}><Save className="h-4 w-4" /> Salvar</Button>
             </div>
           </div>
         )}
 
         <div className="space-y-1">
-          {items.map((p) => (
+          {filtered.map((p) => (
             <div key={p.id} className="flex items-center gap-3 rounded-md border border-border p-2">
               <div className="h-10 w-10 shrink-0 overflow-hidden rounded bg-muted">
                 {p.images?.[0] ? <img src={p.images[0]} alt="" className="h-full w-full object-cover" /> : null}
@@ -646,6 +707,7 @@ function ProductsAdmin() {
                 <div className="flex items-center gap-2 truncate text-sm font-medium">
                   {p.name}
                   {p.featured && <Badge className="bg-amber-500">Destaque</Badge>}
+                  {p.quantity === 0 && <Badge className="bg-zinc-700">Sem estoque</Badge>}
                   {!p.active && <Badge variant="secondary">Inativo</Badge>}
                 </div>
                 <div className="text-xs text-muted-foreground">{p.brandName} · {formatCurrency(p.price)}</div>

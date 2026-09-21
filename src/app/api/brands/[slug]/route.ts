@@ -40,6 +40,7 @@ export async function GET(
       price: p.price,
       oldPrice: p.oldPrice,
       showPrice: p.showPrice ?? true,
+      quantity: p.quantity,
       unit: p.unit,
       image: (() => {
         try { return JSON.parse(p.images)?.[0] ?? null } catch { return null }

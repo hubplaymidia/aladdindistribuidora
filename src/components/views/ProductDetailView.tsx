@@ -63,8 +63,10 @@ export function ProductDetailView({
   const brand = brands.find((b) => b.id === product.brandId)
   const images = product.images?.length ? product.images : ['/products/placeholder-hair-1.jpg']
   const related = product.related ?? []
+  const esgotado = product.quantity === 0
 
   const handleAdd = () => {
+    if (esgotado) return
     add({
       productId: product.id,
       slug: product.slug,
@@ -133,6 +135,13 @@ export function ProductDetailView({
             {product.name}
           </h1>
 
+          {esgotado && (
+            <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-amber-300 bg-amber-50 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.08em] text-amber-800">
+              <span className="h-2 w-2 rounded-full bg-amber-500" />
+              Produto sem estoque
+            </div>
+          )}
+
           <div className="mt-4 flex items-baseline gap-3">
             {product.showPrice ? (
               <>
@@ -170,7 +179,7 @@ export function ProductDetailView({
             <div className="flex items-center gap-1 rounded-full border border-border bg-background p-1">
               <button
                 onClick={() => setQty((q) => Math.max(product.minQuantity, q - 1))}
-                disabled={qty <= product.minQuantity}
+                disabled={qty <= product.minQuantity || esgotado}
                 className="grid h-9 w-9 place-items-center rounded-full transition-colors hover:bg-muted disabled:opacity-40"
                 aria-label="Diminuir"
               >
@@ -179,7 +188,8 @@ export function ProductDetailView({
               <span className="w-10 text-center font-medium">{qty}</span>
               <button
                 onClick={() => setQty((q) => q + 1)}
-                className="grid h-9 w-9 place-items-center rounded-full transition-colors hover:bg-muted"
+                disabled={esgotado}
+                className="grid h-9 w-9 place-items-center rounded-full transition-colors hover:bg-muted disabled:opacity-40"
                 aria-label="Aumentar"
               >
                 <Plus className="h-4 w-4" />
@@ -188,9 +198,12 @@ export function ProductDetailView({
             <Button
               size="lg"
               onClick={handleAdd}
-              className={added ? 'bg-rose-600 hover:bg-rose-600 text-white' : ''}
+              disabled={esgotado}
+              className={esgotado ? 'cursor-not-allowed bg-zinc-300 text-zinc-600 hover:bg-zinc-300' : added ? 'bg-rose-600 hover:bg-rose-600 text-white' : ''}
             >
-              {added ? (
+              {esgotado ? (
+                <>Produto sem estoque</>
+              ) : added ? (
                 <>
                   <Check className="mr-1.5 h-5 w-5" /> Adicionado!
                 </>
@@ -236,6 +249,7 @@ export function ProductDetailView({
                 price={p.price}
                 oldPrice={p.oldPrice}
                 showPrice={p.showPrice}
+                quantity={p.quantity}
                 brandName={p.brandName}
                 brandColor={p.brandColor}
                 minQuantity={p.minQuantity}

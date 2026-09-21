@@ -188,6 +188,7 @@ export function CatalogView({
                 minQuantity={p.minQuantity}
                 description={p.description}
                 featured={p.featured}
+                quantity={p.quantity}
               />
             ))}
           </div>

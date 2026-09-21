@@ -13,6 +13,7 @@
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
     "db:seed": "tsx scripts/seed.ts",
+    "db:seed:dailus": "tsx scripts/seed-dailus.ts",
     "db:migrate": "prisma migrate dev",
     "db:reset": "prisma migrate reset"
   },

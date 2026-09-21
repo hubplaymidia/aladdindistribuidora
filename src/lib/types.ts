@@ -81,6 +81,7 @@ export type BrandProduct = {
   price: number
   oldPrice: number | null
   showPrice: boolean
+  quantity: number
   unit: string | null
   image: string | null
   featured: boolean

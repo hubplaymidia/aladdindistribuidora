@@ -275,6 +275,7 @@ export function BrandView({ brandSlug }: { brandSlug: string }) {
                     brandName={brand.name}
                     brandColor={brand.primaryColor}
                     minQuantity={1}
+                    quantity={p.quantity}
                   />
                 ))}
               </div>
