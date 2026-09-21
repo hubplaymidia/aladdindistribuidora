@@ -1,0 +1,1334 @@
+{
+ "fonte": "Catálogo oficial da plataforma Meus Pedidos (representada 454961), extraído em 22/09/2026 — modo: all",
+ "regras": "Todos os itens da página cadastrados. Esgotados mantidos como sem estoque.",
+ "total": 92,
+ "categorias": [
+  {
+   "nome": "Esponja",
+   "slug": "esponja",
+   "ordem": 0
+  },
+  {
+   "nome": "Kit de Pincéis",
+   "slug": "kit-de-pinceis",
+   "ordem": 1
+  },
+  {
+   "nome": "Pinça",
+   "slug": "pinca",
+   "ordem": 2
+  },
+  {
+   "nome": "Pincel",
+   "slug": "pincel",
+   "ordem": 3
+  },
+  {
+   "nome": "Placa de Maquiagem",
+   "slug": "placa-de-maquiagem",
+   "ordem": 4
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "ESPONJA PARA LIMPEZA E ESFOLIAÇÃO FACIAL REF-811 SFFUMATO BEAUTY",
+   "codigo": "9332",
+   "unidade": "UN",
+   "preco": 2.5,
+   "esgotado": false,
+   "saldo": 328,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/04618abe-040c-11ef-8831-de900ff949db.webp"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 1,
+   "nome": "ESPONJA REF-804 SFFUMATO BEAUTY",
+   "codigo": "9329",
+   "unidade": "UN",
+   "preco": 2.5,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/81e52f3c-040b-11ef-90f6-d69be51a1906.png"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 2,
+   "nome": "ESPONJA REF-816 GOTA SFFUMATO BEAUTY",
+   "codigo": "9335",
+   "unidade": "UN",
+   "preco": 7,
+   "esgotado": false,
+   "saldo": 32,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bdbe2922-040c-11ef-93e8-dad94e4382c9.webp"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 3,
+   "nome": "ESPONJA REF-817 GOTA SFFUMATO BEAUTY",
+   "codigo": "9336",
+   "unidade": "UN",
+   "preco": 5,
+   "esgotado": false,
+   "saldo": 318,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e95f0aa6-040c-11ef-af04-96e558b2a11f.webp"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 4,
+   "nome": "ESPONJA REF-818 GOTA CHANFRADA SFFUMATO BEAUTY",
+   "codigo": "9337",
+   "unidade": "UN",
+   "preco": 7,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6f0b0cc0-0630-11ef-96c3-d24c23a1bce6.webp"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 5,
+   "nome": "KIT DE ESPONJA GOTA MINI REF-815 PCT. C/3 UN SFFUMATO BEAUTY",
+   "codigo": "9334",
+   "unidade": "UN",
+   "preco": 6,
+   "esgotado": false,
+   "saldo": 26,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9434e316-040c-11ef-aef1-e29c478c6533.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 6,
+   "nome": "KIT DE ESPONJA PARA LIMPEZA E ESFOLIAÇÃO FACIAL REF-812 PCT. C/2 UN SFFUMATO BEAUTY",
+   "codigo": "9333",
+   "unidade": "UN",
+   "preco": 2.5,
+   "esgotado": false,
+   "saldo": 333,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2db9cbc4-040c-11ef-8493-e2daa6eb4dc5.png"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 7,
+   "nome": "KIT DE ESPONJA REF-800 SFFUMATO BEAUTY",
+   "codigo": "9328",
+   "unidade": "UN",
+   "preco": 3.5,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4a1fbc34-040b-11ef-8327-5a799d26fdee.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 8,
+   "nome": "KIT DE ESPONJA TRIANGULAR QUEIJINHO REF-805 C/6 UN SFFUMATO BEAUTY",
+   "codigo": "9330",
+   "unidade": "UN",
+   "preco": 4.5,
+   "esgotado": false,
+   "saldo": 36,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b886a35e-040b-11ef-97e4-ca2ca33c91a6.webp"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 9,
+   "nome": "KIT DE ESPONJA TRIANGULAR QUEIJINHO REF-807 PCT. C/8 UN SFFUMATO BEAUTY",
+   "codigo": "9331",
+   "unidade": "UN",
+   "preco": 5,
+   "esgotado": false,
+   "saldo": 36,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/df3e3cd2-040b-11ef-8c93-5a799d26fdee.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 10,
+   "nome": "KIT DE PINCÉIS ANA VEGAN SFFUMATO BEAUTY",
+   "codigo": "9286",
+   "unidade": "CX",
+   "preco": 42,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6faf83ca-0628-11ef-9d7f-9613fa72988f.jpg"
+   ],
+   "descricao": "O kit contém\n01 pincel para pó, blush e contorno, 01 pincel para esfumar, 01pincel para sombra e 01 pincel para delinear.",
+   "categoria": "kit-de-pinceis"
+  },
+  {
+   "ordem": 11,
+   "nome": "KIT DE PINCÉIS JADE COLLECTION SFFUMATO BEAUTY",
+   "codigo": "9284",
+   "unidade": "CX",
+   "preco": 64,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/45659cfa-03ec-11ef-b00f-e29c478c6533.webp"
+   ],
+   "descricao": "Contém 06 modelos de pincéis e 01 esponja.\n01 pincel para delinear, 01 pincel de base, 01 pincel de pó, 01 pincel de blush, 01 pincel de sombra, 01 pincel de iluminador e 01 esponja.",
+   "categoria": "kit-de-pinceis"
+  },
+  {
+   "ordem": 12,
+   "nome": "MINI KIT VIAGEM",
+   "codigo": "9287",
+   "unidade": "CX",
+   "preco": 65,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5f923d52-0628-11ef-991b-9ae8cede9ecb.jpg"
+   ],
+   "descricao": "O kit contém \n6 modelos de pincéis em tamanho mini e um porta pincéis para transporte em eventos, festas ou viagens. São 02 pincéis para pó, blush e contorno e 4 pincéis para olhos.",
+   "categoria": "kit-de-pinceis"
+  },
+  {
+   "ordem": 13,
+   "nome": "PINÇA PONTA DOURADA CHANFRADA REF-500 SFFUMATO BEAUTY",
+   "codigo": "9321",
+   "unidade": "UN",
+   "preco": 10.5,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e2129d10-0409-11ef-ae19-dac346482332.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 14,
+   "nome": "PINÇA PONTA DOURADA CHANFRADA REF-505 SFFUMATO BEAUTY",
+   "codigo": "9323",
+   "unidade": "UN",
+   "preco": 9,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/41c61caa-040a-11ef-867e-2e94f105b4d6.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 15,
+   "nome": "PINÇA PONTA DOURADA RETA REF-501 SFFUMATO BEAUTY",
+   "codigo": "9322",
+   "unidade": "UN",
+   "preco": 10.5,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/08309f1a-040a-11ef-a635-9ae5ba4f6460.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 16,
+   "nome": "PINÇA PREMIUM REF-551 SFFUMATO BEAUTY",
+   "codigo": "9326",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 14,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c5fde9a6-065a-11ef-a65d-823b3ac4cf60.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 17,
+   "nome": "PINÇA PRETA PONTA CHANFRADA REF-508 SFFUMATO BEAUTY",
+   "codigo": "9324",
+   "unidade": "UN",
+   "preco": 10.5,
+   "esgotado": false,
+   "saldo": 22,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/83a5a122-040a-11ef-904f-96e558b2a11f.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 18,
+   "nome": "PINÇA PRETA PONTA RETA REF-509 SFFUMATO BEAUTY",
+   "codigo": "9325",
+   "unidade": "UN",
+   "preco": 10.5,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8db3487a-065a-11ef-a5e6-36fdbb76daf6.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 19,
+   "nome": "PINCEL CHANFRADO PARA DELINEAR S121 SFFUMATO BEAUTY",
+   "codigo": "9264",
+   "unidade": "UN",
+   "preco": 9,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2a4cc23a-03e8-11ef-b375-de900ff949db.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 20,
+   "nome": "PINCEL CHANFRADO PARA DELINEAR S159 SFFUMATO BEAUTY",
+   "codigo": "9270",
+   "unidade": "UN",
+   "preco": 12.5,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9d7956b4-03e9-11ef-aed4-06f79db7fe2a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 21,
+   "nome": "PINCEL DE CONTORNO M311 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9305",
+   "unidade": "UN",
+   "preco": 21,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8263c184-03fd-11ef-bbdd-9ef8fe4dce6e.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 22,
+   "nome": "PINCEL DE CONTORNO M312 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9306",
+   "unidade": "UN",
+   "preco": 21,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a048ff48-03fd-11ef-a78a-e2daa6eb4dc5.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 23,
+   "nome": "PINCEL DE PRECISÃO M316 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9310",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5225aaf4-03fe-11ef-9684-dac346482332.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 24,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M300 SFFUMATO BEAUTY",
+   "codigo": "9298",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fab75f40-03fa-11ef-9d19-d69be51a1906.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 25,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M301 SFFUMATO BEAUTY",
+   "codigo": "9299",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0fab1314-03fc-11ef-a814-9a4bdb517639.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 26,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M303 SFFUMATO BEAUTY",
+   "codigo": "9300",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5459b916-03fc-11ef-9295-2a14d3378e01.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 27,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M304 SFFUMATO BEAUTY",
+   "codigo": "9301",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/cfd96532-03fc-11ef-9153-721603691c3d.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 28,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M305 SFFUMATO BEAUTY",
+   "codigo": "9302",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/227a48ce-03fd-11ef-a569-e29c478c6533.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 29,
+   "nome": "PINCEL DE PRECISÃO MICHELLY PALMA M306 SFFUMATO BEAUTY",
+   "codigo": "9303",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 22,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/41e5b2ca-03fd-11ef-97cf-f222d6f5282d.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 30,
+   "nome": "PINCEL DE PRECISÃO PARA DELINEAR S190 SFFUMATO BEAUTY",
+   "codigo": "9279",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 19,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7c9f6da8-43a8-11ef-9086-3ae936f569d4.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 31,
+   "nome": "PINCEL DE PRECISÃO PARA ESFUMAR S22 SFFUMATO BEAUTY",
+   "codigo": "9254",
+   "unidade": "UN",
+   "preco": 17,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a8f13abc-03d9-11ef-8782-22a00b7a189d.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/af191b12-03d9-11ef-a7fe-16c988d193fd.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 32,
+   "nome": "PINCEL DE PRECISÃO PARA ESFUMAR S28 SFFUMATO BEAUTY",
+   "codigo": "9256",
+   "unidade": "UN",
+   "preco": 17,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4c7368f4-03da-11ef-868f-a6b0dbf33024.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/539c0b4a-03da-11ef-8973-0a3afb90e48a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 33,
+   "nome": "PINCEL DELINEADOR VEGAN V340 SFFUMATO BEAUTY",
+   "codigo": "9288",
+   "unidade": "UN",
+   "preco": 9,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/51151232-03f2-11ef-b511-0a939474ac68.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 34,
+   "nome": "PINCEL DUO FIBER MULTI TAREFAS S141 SFFUMATO BEAUTY",
+   "codigo": "9267",
+   "unidade": "UN",
+   "preco": 25,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c932cfde-03e8-11ef-b28e-c65d2ee970e5.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 35,
+   "nome": "PINCEL DUO FIBER S107 SFFUMATO BEAUTY",
+   "codigo": "9261",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 18,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8c5dc79a-03e7-11ef-9092-029de32030a5.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/95ab4e1c-03e7-11ef-98ff-e62c0a39c4b6.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 36,
+   "nome": "PINCEL DUPLO / ESCOVA E CHANFRADO S127 SFFUMATO BEAUTY",
+   "codigo": "9266",
+   "unidade": "UN",
+   "preco": 9,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/88342d0c-03e8-11ef-a462-aef407ca884b.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 37,
+   "nome": "PINCEL DUPLO PARA BLUSH, CONTORNO E OLHOS S191 SFFUMATO BEAUTY",
+   "codigo": "9280",
+   "unidade": "UN",
+   "preco": 39,
+   "esgotado": false,
+   "saldo": 15,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8ee9fc8e-43a9-11ef-ac31-66565d567dad.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 38,
+   "nome": "PINCEL DUPLO PARA PÓ/BLUSH E BASE/CORRETIVO S194 SFFUMATO BEAUTY",
+   "codigo": "9283",
+   "unidade": "UN",
+   "preco": 39,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a444c6e8-fd1d-11f0-8a3e-f20ea95f3136.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 39,
+   "nome": "PINCEL DUPLO PARA SOMBRA E ESFUMAR S192 SFFUMATO BEAUTY",
+   "codigo": "9281",
+   "unidade": "UN",
+   "preco": 16,
+   "esgotado": false,
+   "saldo": 11,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bbf770b0-fd1d-11f0-baca-02ecf4ea2404.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 40,
+   "nome": "PINCEL DUPLO PARA SOMBRA E LÁBIOS S193 SFFUMATO BEAUTY",
+   "codigo": "9282",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 18,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dc24218a-fd1d-11f0-8782-36c0a39edd9f.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 41,
+   "nome": "PINCEL ILUMINADOR M309 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9304",
+   "unidade": "UN",
+   "preco": 36,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/63824434-03fd-11ef-a3b3-56521c1de8c3.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 42,
+   "nome": "PINCEL LEQUE M324 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9318",
+   "unidade": "UN",
+   "preco": 11,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8ff748fa-0409-11ef-a34d-d69be51a1906.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 43,
+   "nome": "PINCEL LEQUE MULTI TAREFAS S188 SFFUMATO BEAUTY",
+   "codigo": "9277",
+   "unidade": "UN",
+   "preco": 14,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6a24e7de-fd1f-11f0-afac-ee4fbfa94b3a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 44,
+   "nome": "PINCEL MULTI TAREFAS S117 SFFUMATO BEAUTY",
+   "codigo": "9263",
+   "unidade": "UN",
+   "preco": 10,
+   "esgotado": false,
+   "saldo": 19,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f66ab3dc-03e7-11ef-8f3c-2af5c410c753.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 45,
+   "nome": "PINCEL PARA BASE E CORRETIVO S186 SFFUMATO BEAUTY",
+   "codigo": "9275",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/935af2ec-fd1f-11f0-b0f3-76418b5f974c.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 46,
+   "nome": "PINCEL PARA BASE LÍNGUA DE GATO S167 SFFUMATO BEAUTY",
+   "codigo": "9268",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f71eb84a-03e8-11ef-991a-e29c478c6533.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 47,
+   "nome": "PINCEL PARA BASE S109 SFFUMATO BEAUTY",
+   "codigo": "9262",
+   "unidade": "UN",
+   "preco": 17,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ba417242-03e7-11ef-9092-029de32030a5.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 48,
+   "nome": "PINCEL PARA BASE TOPO RETO M320 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9314",
+   "unidade": "UN",
+   "preco": 29,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0ecc95d2-0409-11ef-af69-ba4bef6ea893.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 49,
+   "nome": "PINCEL PARA BASE VEGAN V348 SFFUMATO BEAUTY",
+   "codigo": "9296",
+   "unidade": "UN",
+   "preco": 26,
+   "esgotado": false,
+   "saldo": 22,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/998e2780-03fa-11ef-a90e-2af5c410c753.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 50,
+   "nome": "PINCEL PARA BLUSH E ILUMINADOR VEGAN V347 SFFUMATO BEAUTY",
+   "codigo": "9295",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/28c6c8f4-03fa-11ef-815f-5a799d26fdee.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 51,
+   "nome": "PINCEL PARA BLUSH M313 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9307",
+   "unidade": "UN",
+   "preco": 36,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dc04f99c-03fd-11ef-a435-0a939474ac68.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 52,
+   "nome": "PINCEL PARA BLUSH VEGAN V349 SFFUMATO BEAUTY",
+   "codigo": "9297",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 13,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d57a4404-03fa-11ef-9534-2e94f105b4d6.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 53,
+   "nome": "PINCEL PARA CONTORNO E ILUMINADOR S26 SFFUMATO BEAUTY",
+   "codigo": "9255",
+   "unidade": "UN",
+   "preco": 28,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f9c3815c-03d9-11ef-a99d-de900ff949db.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/029baf2a-03da-11ef-b97c-4eee1011ead4.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 54,
+   "nome": "PINCEL PARA CONTORNO S103 SFFUMATO BEAUTY",
+   "codigo": "9260",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4915d6ee-03e7-11ef-9092-029de32030a5.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/504d7282-03e7-11ef-a111-428e60b21750.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 55,
+   "nome": "PINCEL PARA CONTORNO VEGAN V346 SFFUMATO BEAUTY",
+   "codigo": "9294",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/af9acc46-03f9-11ef-ac72-721603691c3d.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 56,
+   "nome": "PINCEL PARA CORRETIVO M322 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9316",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/518b2ab4-0409-11ef-8ff8-5a799d26fdee.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 57,
+   "nome": "PINCEL PARA CUIDADOS DA PELE S185 SFFUMATO BEAUTY",
+   "codigo": "9274",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ba646922-fd1f-11f0-97f8-3a3b46a0ca90.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 58,
+   "nome": "PINCEL PARA DEPOSITAR GLITTER VEGAN V341 SFFUMATO BEAUTY",
+   "codigo": "9289",
+   "unidade": "UN",
+   "preco": 11,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/75452a2a-03f2-11ef-adf5-e2cdeb42ec50.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 59,
+   "nome": "PINCEL PARA DETALHES M319 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9313",
+   "unidade": "UN",
+   "preco": 16,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e3954210-0408-11ef-8482-2a14d3378e01.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 60,
+   "nome": "PINCEL PARA ESFUMAR M314 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9308",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 22,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0371a8c2-03fe-11ef-9406-e2daa6eb4dc5.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 61,
+   "nome": "PINCEL PARA ESFUMAR M315 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9309",
+   "unidade": "UN",
+   "preco": 18,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2dbce100-03fe-11ef-8265-f222d6f5282d.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 62,
+   "nome": "PINCEL PARA ESFUMAR M318 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9312",
+   "unidade": "UN",
+   "preco": 16,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c7e17552-0408-11ef-8769-dac346482332.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 63,
+   "nome": "PINCEL PARA ESFUMAR S02 SFFUMATO BEAUTY",
+   "codigo": "9248",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b263e8c6-03d7-11ef-896a-16c988d193fd.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 64,
+   "nome": "PINCEL PARA ESFUMAR S06 SFFUMATO BEAUTY",
+   "codigo": "9249",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/db5137ac-03d7-11ef-89fc-721603691c3d.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 65,
+   "nome": "PINCEL PARA ESFUMAR S08 SFFUMATO BEAUTY",
+   "codigo": "9250",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1c0361da-03d8-11ef-a60f-be9f26d6064a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 66,
+   "nome": "PINCEL PARA ESFUMAR S10 SFFUMATO BEAUTY",
+   "codigo": "9251",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/477e0f04-03d8-11ef-a089-de900ff949db.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/572be6b0-03d8-11ef-be59-0a3afb90e48a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 67,
+   "nome": "PINCEL PARA ESFUMAR S12 SFFUMATO BEAUTY",
+   "codigo": "9252",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/753d4900-03d8-11ef-9968-721603691c3d.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/82af1e2e-03d8-11ef-b66d-be9f26d6064a.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 68,
+   "nome": "PINCEL PARA ESFUMAR S14 SFFUMATO BEAUTY",
+   "codigo": "9253",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 14,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a8b7c6fc-03d8-11ef-878c-82b8e86de8a2.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/accf5142-03d8-11ef-9d21-2a9d1cf10232.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 69,
+   "nome": "PINCEL PARA ESFUMAR S30 SFFUMATO BEAUTY",
+   "codigo": "9257",
+   "unidade": "UN",
+   "preco": 17,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/82d8adc8-03da-11ef-a508-062546d8d0f0.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8e759d4e-03da-11ef-afa6-ca2ca33c91a6.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 70,
+   "nome": "PINCEL PARA ESFUMAR S34 SFFUMATO BEAUTY",
+   "codigo": "9259",
+   "unidade": "UN",
+   "preco": 17.5,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/67730630-03dc-11ef-8a97-3a75fe8d979d.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9a64f60c-03dc-11ef-b7b4-de900ff949db.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 71,
+   "nome": "PINCEL PARA ESFUMAR VEGAN V342 SFFUMATO BEAUTY",
+   "codigo": "9290",
+   "unidade": "UN",
+   "preco": 14,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c11ff6f2-03f5-11ef-8302-2af5c410c753.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 72,
+   "nome": "PINCEL PARA ILUMINADOR S32 SFFUMATO BEAUTY",
+   "codigo": "9258",
+   "unidade": "UN",
+   "preco": 22,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/47fa9576-03db-11ef-8328-1a74aafa291e.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5898f60c-03db-11ef-9d88-76f19c1f7876.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 73,
+   "nome": "PINCEL PARA LÁBIOS S125 SFFUMATO BEAUTY",
+   "codigo": "9265",
+   "unidade": "UN",
+   "preco": 9,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5ea336a4-03e8-11ef-b273-4696969c5cd1.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 74,
+   "nome": "PINCEL PARA OLHOS E CONTORNO DE NARIZ S189 SFFUMATO BEAUTY",
+   "codigo": "9278",
+   "unidade": "UN",
+   "preco": 14,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0e4340d6-fd20-11f0-910b-e6720c7c5402.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 75,
+   "nome": "PINCEL PARA OLHOS E CONTORNO DO NARIZ S187 SFFUMATO BEAUTY",
+   "codigo": "9276",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f4937804-fd1f-11f0-9cea-662f0e2fde83.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 76,
+   "nome": "PINCEL PARA PÓ M317 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9311",
+   "unidade": "UN",
+   "preco": 36,
+   "esgotado": false,
+   "saldo": 16,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a82ceba6-0408-11ef-839c-e2daa6eb4dc5.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 77,
+   "nome": "PINCEL PARA PÓ S181 SFFUMATO BEAUTY",
+   "codigo": "9269",
+   "unidade": "UN",
+   "preco": 41,
+   "esgotado": false,
+   "saldo": 11,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/51275f72-03e9-11ef-aed4-06f79db7fe2a.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/54f56ac2-03e9-11ef-a2df-fa275e5eb7af.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 78,
+   "nome": "PINCEL PARA PÓ VEGAN V345 SFFUMATO BEAUTY",
+   "codigo": "9293",
+   "unidade": "UN",
+   "preco": 29,
+   "esgotado": false,
+   "saldo": 22,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/83e39d80-03f9-11ef-b313-d26356a626f0.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 79,
+   "nome": "PINCEL PARA SOMBRA M321 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9315",
+   "unidade": "UN",
+   "preco": 16,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2e7453de-0409-11ef-b2f6-b27e0ce3daf2.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 80,
+   "nome": "PINCEL PARA SOMBRA VEGAN V343 SFFUMATO BEAUTY",
+   "codigo": "9291",
+   "unidade": "UN",
+   "preco": 14,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/07fc6b82-03f6-11ef-a42d-de900ff949db.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 81,
+   "nome": "PINCEL PARA SOMBRA VEGAN V344 SFFUMATO BEAUTY",
+   "codigo": "9292",
+   "unidade": "UN",
+   "preco": 14,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2afdbebe-03f7-11ef-baa3-5a799d26fdee.jpg"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 82,
+   "nome": "PINCEL S182 PARA PÓ, BLUSH E ILUMINADOR SFFUMATO BEAUTY",
+   "codigo": "9271",
+   "unidade": "UN",
+   "preco": 28,
+   "esgotado": false,
+   "saldo": 23,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/28124f98-fd20-11f0-9752-e23322962d42.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 83,
+   "nome": "PINCEL S183 PARA BASE SFFUMATO BEAUTY",
+   "codigo": "9272",
+   "unidade": "UN",
+   "preco": 33,
+   "esgotado": false,
+   "saldo": 15,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/525c6c2a-fd20-11f0-b545-4a8760c7d72e.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 84,
+   "nome": "PINCEL S184 PARA BASE, BLUSH E CONTORNO SFFUMATO BEAUTY",
+   "codigo": "9273",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/69bf6296-fd20-11f0-828b-1661ee4b4278.png"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 85,
+   "nome": "PLACA DE MAQUIAGEM C/ ANEL E ESPATULA G REF-6511 SFFUMATO BEAUTY",
+   "codigo": "9339",
+   "unidade": "UN",
+   "preco": 12,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/81458ae8-040d-11ef-8e8e-2a14d3378e01.jpg"
+   ],
+   "descricao": null,
+   "categoria": "placa-de-maquiagem"
+  },
+  {
+   "ordem": 86,
+   "nome": "PLACA DE MAQUIAGEM C/ ANEL PEQUENO C REF-6513 SFFUMATO BEAUTY",
+   "codigo": "9340",
+   "unidade": "UN",
+   "preco": 6,
+   "esgotado": false,
+   "saldo": 17,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a805ac62-040d-11ef-9096-dac346482332.webp"
+   ],
+   "descricao": null,
+   "categoria": "placa-de-maquiagem"
+  },
+  {
+   "ordem": 87,
+   "nome": "POTE DE PINCAS REF-520 C/100 UN SFFUMATO BEAUTY",
+   "codigo": "9327",
+   "unidade": "POTE",
+   "preco": 85,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/910d8a5a-42da-11ef-93e9-b60afab177dc.webp"
+   ],
+   "descricao": null,
+   "categoria": "pinca"
+  },
+  {
+   "ordem": 88,
+   "nome": "KIT DE ESPONJA TRIANGULAR REF-823 PCT. C/ 2 UN SFFUMATO BEAUTY",
+   "codigo": "9338",
+   "unidade": "UN",
+   "preco": 8,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/eabdf0e2-0632-11ef-baea-ba76f3168810.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esponja"
+  },
+  {
+   "ordem": 89,
+   "nome": "KIT DE PINCÉIS BIANCA COLLECTION SFFUMATO BEAUTY",
+   "codigo": "9285",
+   "unidade": "CX",
+   "preco": 52,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/148a8512-03ee-11ef-8a6c-dac346482332.jpg"
+   ],
+   "descricao": "Contém 04 modelos de pincéis e 01 esponja.\n01 PINCEL PARA PÓ, 01 PINCEL DE BLUSH E CONTORNO, 01 PINCEL PARA SOMBRAS, 01 PINCEL PARA DELINEAR SOBRANCELHA E 01 ESPONJA.",
+   "categoria": "kit-de-pinceis"
+  },
+  {
+   "ordem": 90,
+   "nome": "PINCEL DE PRECISÃO M325 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9319",
+   "unidade": "UN",
+   "preco": 10,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b08257e0-0409-11ef-b933-e29c478c6533.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  },
+  {
+   "ordem": 91,
+   "nome": "PINCEL DUPLA ESCOVA M323 MICHELLY PALMA SFFUMATO BEAUTY",
+   "codigo": "9317",
+   "unidade": "UN",
+   "preco": 13,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/70553de0-0409-11ef-a569-2af5c410c753.webp"
+   ],
+   "descricao": null,
+   "categoria": "pincel"
+  }
+ ]
+}

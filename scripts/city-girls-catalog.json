@@ -1,0 +1,541 @@
+{
+ "fonte": "Catálogo oficial da plataforma Meus Pedidos (representada 454961), extraído em 22/09/2026 — modo: all",
+ "regras": "Todos os itens da página cadastrados. Esgotados mantidos como sem estoque.",
+ "total": 33,
+ "categorias": [
+  {
+   "nome": "City Girls Rosto",
+   "slug": "city-girls-rosto",
+   "ordem": 0
+  },
+  {
+   "nome": "City Girls Olhos",
+   "slug": "city-girls-olhos",
+   "ordem": 1
+  },
+  {
+   "nome": "City Girls Labios",
+   "slug": "city-girls-labios",
+   "ordem": 2
+  },
+  {
+   "nome": "City Girls Sobrancelha",
+   "slug": "city-girls-sobrancelha",
+   "ordem": 3
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "CG092B BASE LIQUIDA MATTE CITY GIRLS DSPL C/24 UN",
+   "codigo": "4849",
+   "unidade": "DSPL",
+   "preco": 270,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f5f170d4-b907-11ed-a002-42eab2ae19e2.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 1,
+   "nome": "CG262 PALETA DE SOMBRAS INABALAVEL CITY GIRLS DSPL C/24 UN",
+   "codigo": "4890",
+   "unidade": "DSPL",
+   "preco": 233.93,
+   "esgotado": false,
+   "saldo": 13,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/65e48ddc-c825-11ed-8e0b-5643c64be4f0.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/65ff048c-c825-11ed-8e0b-5643c64be4f0.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/661727b0-c825-11ed-8e0b-5643c64be4f0.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/662fec1e-c825-11ed-8e0b-5643c64be4f0.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 2,
+   "nome": "CG265 SALADA DE FRUTAS LIP GLOSS DSPL C/ 24 UN",
+   "codigo": "5015",
+   "unidade": "DSPL",
+   "preco": 117.6,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a5d814a6-0f63-11ee-b78a-8ade45764880.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-labios"
+  },
+  {
+   "ordem": 3,
+   "nome": "CG271 LOVELY FRIENDS PALETA DE SOMBRAS CX C/ 24 UN",
+   "codigo": "8768",
+   "unidade": "DSPL",
+   "preco": 224.6,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/111e0234-50a0-11ee-ab54-128339659b33.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 4,
+   "nome": "CG272 LITTLE BEE PALETA DE SOMBRAS 9 CORES CITY GIRLS DSPL C/24",
+   "codigo": "4770",
+   "unidade": "DSPL",
+   "preco": 257.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/81847754-a0da-11ed-bc31-0edb8d496226.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/810e85b2-a0da-11ed-bc31-0edb8d496226.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/81323e44-a0da-11ed-bc31-0edb8d496226.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/814ee404-a0da-11ed-bc31-0edb8d496226.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8168ea34-a0da-11ed-bc31-0edb8d496226.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 5,
+   "nome": "CG274 VAI NA FÉ PALETA DE SOMBRAS CITY GIRLS DSPL C/12 UN",
+   "codigo": "4892",
+   "unidade": "DSPL",
+   "preco": 150.98,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6e4236cc-c826-11ed-a1f7-0a77154cdbb1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6da25b5c-c826-11ed-a1f7-0a77154cdbb1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6dcef13a-c826-11ed-a1f7-0a77154cdbb1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6dfe3544-c826-11ed-a1f7-0a77154cdbb1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6e22c274-c826-11ed-a1f7-0a77154cdbb1.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 6,
+   "nome": "CG283 LITTLE BEE SOMBRA P/SOBRANCELHA  3 CORES CITY GIRLS DSPL C/12",
+   "codigo": "4777",
+   "unidade": "DSPL",
+   "preco": 124.56,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f68c99fe-a0c2-11ed-bd74-5650c368f893.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f6a858c4-a0c2-11ed-bd74-5650c368f893.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f66e7384-a0c2-11ed-bd74-5650c368f893.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f646b664-a0c2-11ed-bd74-5650c368f893.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-sobrancelha"
+  },
+  {
+   "ordem": 7,
+   "nome": "CG288 KEY OF LOVE PALETA DE SOMBRAS 9 CORES CITY GIRLS DSPL C/24",
+   "codigo": "4771",
+   "unidade": "DSPL",
+   "preco": 263.16,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0de6e80e-a0c6-11ed-9bac-f2f55012af57.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0d648e9a-a0c6-11ed-9bac-f2f55012af57.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0d8d70bc-a0c6-11ed-9bac-f2f55012af57.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0dad55da-a0c6-11ed-9bac-f2f55012af57.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0dca3556-a0c6-11ed-9bac-f2f55012af57.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 8,
+   "nome": "CG289 ESPERANÇA PALETA DE SOMBRAS 10 CORES CITY GIRLS DSPL C/12",
+   "codigo": "4773",
+   "unidade": "DSPL",
+   "preco": 159.4,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e2b4eaaa-a0a7-11ed-82f8-dec30b1d94e7.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e23db066-a0a7-11ed-82f8-dec30b1d94e7.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e2643542-a0a7-11ed-82f8-dec30b1d94e7.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e284f174-a0a7-11ed-82f8-dec30b1d94e7.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e29dc7d0-a0a7-11ed-82f8-dec30b1d94e7.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 9,
+   "nome": "CG290 REAL COVERAGE CORRETIVO 6 CORES CITY GIRLS DSPL C/24 UN",
+   "codigo": "4764",
+   "unidade": "DSPL",
+   "preco": 190.35,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d8cde780-a0d9-11ed-a84e-963de37c679e.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d8a65aa8-a0d9-11ed-a84e-963de37c679e.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d8bc6762-a0d9-11ed-a84e-963de37c679e.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 10,
+   "nome": "CG294 BE SIMPLE PALETA DE SOMBRAS CITY GIRLS DSPL C/12 UN",
+   "codigo": "4894",
+   "unidade": "DSPL",
+   "preco": 136.08,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dd255a86-c823-11ed-a0ec-0ad873a062fe.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dd4c3b56-c823-11ed-a0ec-0ad873a062fe.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dd6b9578-c823-11ed-a0ec-0ad873a062fe.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dd89d470-c823-11ed-a0ec-0ad873a062fe.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 11,
+   "nome": "CG297 PRETTY EYES PALETA DE SOMBRAS CITY GIRLS DSPL C/24 UN",
+   "codigo": "4887",
+   "unidade": "DSPL",
+   "preco": 265.68,
+   "esgotado": false,
+   "saldo": 19,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/60a9eff8-c823-11ed-b59f-86e34ae4a951.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/60d2b406-c823-11ed-b59f-86e34ae4a951.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/60ef35b8-c823-11ed-b59f-86e34ae4a951.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/610bb102-c823-11ed-b59f-86e34ae4a951.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 12,
+   "nome": "CG299 BON VOYAGE PALETA DE SOMBRAS CITY GIRLS DSPL C/24 UN",
+   "codigo": "4839",
+   "unidade": "DSPL",
+   "preco": 223.68,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/18fceeac-b90b-11ed-a6f1-0a1e2a7ebb88.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6f57d218-b90a-11ed-8f82-4acba9e53882.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fcc218c0-b90a-11ed-8e40-2a2a7637b9ae.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 13,
+   "nome": "CG305 STRAWBERRY PARTY BLUSH DSPL C/24 UN",
+   "codigo": "8598",
+   "unidade": "DSPL",
+   "preco": 198.4,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0fb7d99e-24cf-11ee-834d-fa5f674ad510.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 14,
+   "nome": "CG306 LOVE ME BLUSH MARCA CITY GIRLS DSPL C/24",
+   "codigo": "4988",
+   "unidade": "DSPL",
+   "preco": 141.6,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/221892ca-0f64-11ee-ac7e-c650c3e88d9a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 15,
+   "nome": "CG307 BEAR HUG PALETA DE SOMBRAS 5 CORES CITY GIRLS DSPL C/24",
+   "codigo": "4774",
+   "unidade": "DSPL",
+   "preco": 239.48,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/82680f24-a0d9-11ed-a802-5aab548b30d3.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/81e1939a-a0d9-11ed-a802-5aab548b30d3.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/820ce39c-a0d9-11ed-a802-5aab548b30d3.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/822e8452-a0d9-11ed-a802-5aab548b30d3.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8249f2fa-a0d9-11ed-a802-5aab548b30d3.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 16,
+   "nome": "CG309 DREAMER DAY PALETA DE SOMBRAS MARCA CITY GIRLS DSPL",
+   "codigo": "5060",
+   "unidade": "DSPL",
+   "preco": 249.6,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1722de5c-11c1-11ee-9116-ee79e8fd76a0.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 17,
+   "nome": "CG312 HELLO SUNSHINE GLITTER/ PALETA DE SOMBRAS MARCA CITY GIRLS",
+   "codigo": "5061",
+   "unidade": "DSPL",
+   "preco": 221.8,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/36e70880-11c1-11ee-9c8f-a23c926b214c.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 18,
+   "nome": "CG317 COFFEE SHOP PALETA DE SOMBRAS CITY GIRLS DSPL C/12 UN",
+   "codigo": "9020",
+   "unidade": "DSPL",
+   "preco": 151.2,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3e6a7772-cb6b-11ee-a9fb-6a67a2e20d1e.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 19,
+   "nome": "CG321 MY LITTLE PIG PALETA DE SOMBRAS CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "8893",
+   "unidade": "DSPL",
+   "preco": 276,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2493409a-7a49-11ee-b19b-4aab97fb97c5.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 20,
+   "nome": "CG329 PRESS START PALETA DE SOMBRAS CITY GIRLS DSPL C/24 UN",
+   "codigo": "9156",
+   "unidade": "DSPL",
+   "preco": 261.6,
+   "esgotado": false,
+   "saldo": 15,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a5d04236-0660-11ef-8085-2278ee752cf4.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a9ee5cf4-0660-11ef-8cbe-ce0d25069969.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 21,
+   "nome": "CG330 GROOVY PALETA DE SOMBRAS DSPL C/ 24 UN",
+   "codigo": "8660",
+   "unidade": "DSPL",
+   "preco": 237.6,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fded1d06-3b66-11ee-ad86-aa105fe625a1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fdcd6cea-3b66-11ee-ad86-aa105fe625a1.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  },
+  {
+   "ordem": 22,
+   "nome": "CG331 JELLY FUN MASCARA LABIAL CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "9159",
+   "unidade": "DSPL",
+   "preco": 144,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d495ac5a-0660-11ef-bb76-dafd0d64cbda.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d870280a-0660-11ef-a6e3-2addf3063060.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-labios"
+  },
+  {
+   "ordem": 23,
+   "nome": "CG333 PALETA DE SOMBRAS 9 CORES FUNDAY CITY GIRLS DSPL C/24 UN",
+   "codigo": "9831",
+   "unidade": "DSPL",
+   "preco": 313.3,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dcf9b832-cf55-11ef-8827-76a2e15482e4.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 24,
+   "nome": "CG335 PALETA DE SOMBRAS 6 CORES LAZY CAT CITY GIRLS DSPL C/24 UN",
+   "codigo": "9832",
+   "unidade": "DSPL",
+   "preco": 213.8,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/468159cc-cf56-11ef-ab92-e62da0f2e868.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/500a852c-cf56-11ef-ab92-e62da0f2e868.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/54b6c888-cf56-11ef-82d0-c6df9b80ac12.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 25,
+   "nome": "CG342 PALETA DE SOMBRAS 9 CORES SELF LOVE CITY GIRLS DSPL C/24 UN",
+   "codigo": "9829",
+   "unidade": "DSPL",
+   "preco": 268.8,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7889c378-cf56-11ef-bd27-7ee53f27c462.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 26,
+   "nome": "CG344 ICE CREAM MASCARA LABIAL CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "9221",
+   "unidade": "DSPL",
+   "preco": 165.6,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2a813968-0661-11ef-83ee-dafd0d64cbda.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2e4c3af2-0661-11ef-9f0d-a6e7fc747dfd.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-labios"
+  },
+  {
+   "ordem": 27,
+   "nome": "CG345 ICE CREAM PALETA DE SOMBRAS CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "9220",
+   "unidade": "DSPL",
+   "preco": 204,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b14c7e34-0bad-11ef-bbc8-3e023f15fdb9.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b5f3afde-0bad-11ef-a9e0-da4a9dc30b7a.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c66c67a2-0bad-11ef-bbc8-3e023f15fdb9.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 28,
+   "nome": "CG348 SOMBRA LÍQUIDA CITY GIRLS DSPL C/24 UN",
+   "codigo": "9534",
+   "unidade": "DSPL",
+   "preco": 180,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ddf0e6e0-3acf-11ef-b80e-c66bbc1ac55b.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e2a6f328-3acf-11ef-aa22-f200c767b87d.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e71e7796-3acf-11ef-97a0-fa0818d55890.webp"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 29,
+   "nome": "CG350 STICK MULTIFUNCIONAL CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "9157",
+   "unidade": "DSPL",
+   "preco": 156,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b556312c-0bae-11ef-a4a5-46eb7071e1f2.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b8c7f958-0bae-11ef-923e-065444f090a2.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 30,
+   "nome": "CG366 KISSES BLUSH CITY GIRLS DSPL C/24 UN",
+   "codigo": "9827",
+   "unidade": "DSPL",
+   "preco": 216.8,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dc5bba14-cf56-11ef-80a2-8678acbcb4e3.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 31,
+   "nome": "CG372 TRIO DE CONTORNO CITY GIRLS DSPL C/ 24 UN",
+   "codigo": "9219",
+   "unidade": "DSPL",
+   "preco": 246.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1822e7a0-0baf-11ef-8aa5-3e023f15fdb9.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1defad76-0baf-11ef-83fa-563bc1815009.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2118a1ba-0baf-11ef-a4d9-5e17bad32759.jpg"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-rosto"
+  },
+  {
+   "ordem": 32,
+   "nome": "CG418 LAPISEIRA DELINEADORA TUTTI FRUTTI CITY GIRLS - DSPL C/48 UN",
+   "codigo": "10109",
+   "unidade": "DSPL",
+   "preco": 285.6,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0505ea3e-f2cf-11ef-8467-c68454dbb391.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/09f0a30e-f2cf-11ef-8e30-b27ca02cceae.png"
+   ],
+   "descricao": null,
+   "categoria": "city-girls-olhos"
+  }
+ ]
+}

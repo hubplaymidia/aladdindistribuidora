@@ -1,0 +1,1876 @@
+{
+ "fonte": "Catálogo oficial da plataforma Meus Pedidos (representada 454961), extraído em 22/09/2026 — modo: all",
+ "regras": "Todos os itens da página cadastrados. Esgotados mantidos como sem estoque.",
+ "total": 127,
+ "categorias": [
+  {
+   "nome": "Acidificante",
+   "slug": "acidificante",
+   "ordem": 0
+  },
+  {
+   "nome": "Coloração",
+   "slug": "coloracao",
+   "ordem": 1
+  },
+  {
+   "nome": "Condicionador",
+   "slug": "condicionador",
+   "ordem": 2
+  },
+  {
+   "nome": "Leave-in",
+   "slug": "leave-in",
+   "ordem": 3
+  },
+  {
+   "nome": "Máscara",
+   "slug": "mascara",
+   "ordem": 4
+  },
+  {
+   "nome": "Óleo Capilar",
+   "slug": "oleo-capilar",
+   "ordem": 5
+  },
+  {
+   "nome": "Pó Descolorante",
+   "slug": "po-descolorante",
+   "ordem": 6
+  },
+  {
+   "nome": "Realinhamento Capilar",
+   "slug": "realinhamento-capilar",
+   "ordem": 7
+  },
+  {
+   "nome": "Sérum Ativador",
+   "slug": "serum-ativador",
+   "ordem": 8
+  },
+  {
+   "nome": "Shampoo",
+   "slug": "shampoo",
+   "ordem": 9
+  },
+  {
+   "nome": "Creme Oxidante",
+   "slug": "creme-oxidante",
+   "ordem": 10
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "ACIDIFICANTE DOHA BLOND VIVANCE 250ML",
+   "codigo": "9712",
+   "unidade": "UN",
+   "preco": 52.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/027ff99c-6eec-11ef-a6f4-aea0c8e8c391.webp"
+   ],
+   "descricao": null,
+   "categoria": "acidificante"
+  },
+  {
+   "ordem": 1,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 10/0 LOURO SUPER CLARO NATURAL 50ML",
+   "codigo": "9721",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fd0e7936-6f70-11ef-a336-02607f099852.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 2,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 10/1 LOURO SUPER CLARO ACINZENTADO 50ML",
+   "codigo": "9731",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0c58dabc-6f94-11ef-b6ec-1265ce5fcbc7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 3,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 10/21 LOURO SUPER CLARO IRISADO 50ML",
+   "codigo": "9737",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 4,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 10/89 LOURO SUPER CLARO PÉROLA 50ML",
+   "codigo": "9734",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 5,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 12/0 LOURÍSSIMO NATURAL 50ML",
+   "codigo": "9763",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 6,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 12/02 LOURÍSSIMO NATURAL IRISADO 50ML",
+   "codigo": "9764",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b6bad42e-6fa3-11ef-8cd3-c2227a84da85.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 7,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 12/1 LOURÍSSIMO ACINZENTADO 50ML",
+   "codigo": "9765",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f5cd7eb4-6fa3-11ef-b4b5-bac89ef1094b.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 8,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 12/11 LOURÍSSIMO CINZA INTENSO 50ML",
+   "codigo": "9766",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 9,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 12/21 LOURÍSSIMO IRISADO 50ML",
+   "codigo": "9767",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 10,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 3/0 CASTANHO ESCURO NATURAL 50ML",
+   "codigo": "9714",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6df7f648-6f6e-11ef-b72a-02743f2b0bfe.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 11,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 4/0 CASTANHO MÉDIO NATURAL 50ML",
+   "codigo": "9715",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dfa1452e-6f6e-11ef-8eb0-ea7d35f860ba.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 12,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 5/0 CASTANHO CLARO NATURAL 50ML",
+   "codigo": "9716",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/115c1e86-6f6f-11ef-8198-ce67d0ae9099.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 13,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 5/1 CASTANHO CLARO ACINZENTADO 50ML",
+   "codigo": "9726",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/91be06e8-6f74-11ef-86fa-a61904e8be6e.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 14,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 5/5 CASTANHO CLARO ACAJÚ 50ML",
+   "codigo": "9760",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 15,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 55/62 CASTANHO CLARO INTENSO VERMELHO INTENSO 50ML",
+   "codigo": "9761",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 16,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/00 LOURO ESCURO NATURAL INTENSO 50ML",
+   "codigo": "9722",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/75180442-6f71-11ef-932e-d6b3898173f7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 17,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/1 LOURO ESCURO ACINZENTADO 50ML",
+   "codigo": "9727",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d39ad79e-6f74-11ef-b124-be18f164037a.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 18,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/3 LOURO ESCURO DOURADO 50ML",
+   "codigo": "9742",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 19,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/31 LOURO ESCURO BEGE 50ML",
+   "codigo": "9738",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 20,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/44 LOURO ESCURO ACOBREADO INTENSO 50ML",
+   "codigo": "9744",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 21,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/46 LOURO ESCURO ACOBREADO AVERMELHADO 50ML",
+   "codigo": "9748",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 22,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/71 LOURO ESCURO MARROM ACINZENTADO 50ML",
+   "codigo": "9753",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 23,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/73 LOURO ESCURO MARROM DOURADO 50ML",
+   "codigo": "9755",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 24,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 66/62 LOURO ESCURO INTENSO VERMELHO VIOLETA 50ML",
+   "codigo": "9762",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 25,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 66/66 LOURO ESCURO INTENSO VERMELHO INTENSO 50ML",
+   "codigo": "9758",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 26,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/00 LOURO MÉDIO NATURAL INTENSO 50ML",
+   "codigo": "9723",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bd38e61a-6f71-11ef-8e4c-ee859d60a288.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 27,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/1 LOURO MÉDIO ACINZENTADO 50ML",
+   "codigo": "9728",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/08dead40-6f75-11ef-8d79-ca54e940092f.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 28,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/31 LOURO MÉDIO BEGE 50ML",
+   "codigo": "9739",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 29,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/44 LOURO MÉDIO ACOBREADO INTENSO 50ML",
+   "codigo": "9745",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 30,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/7 LOURO MÉDIO MARROM 50ML",
+   "codigo": "9751",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 31,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/71 LOURO MÉDIO MARROM ACINZENTADO 50ML",
+   "codigo": "9754",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 32,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 77/66 LOURO MÉDIO INTENSO VERMELHO INTENSO 50ML",
+   "codigo": "9759",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 33,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/0 LOURO CLARO NATURAL 50ML",
+   "codigo": "9719",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/befe3308-6f6f-11ef-b4b6-9a76940013e9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 34,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/00 LOURO CLARO NATURAL INTENSO 50ML",
+   "codigo": "9724",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 35,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/1 LOURO CLARO ACINZENTADO 50ML",
+   "codigo": "9729",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/33d53000-6f75-11ef-a8e4-ca1bb30c6de0.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 36,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/21 LOURO CLARO IRISADO 50ML",
+   "codigo": "9735",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 37,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/3 LOURO CLARO DOURADO 50ML",
+   "codigo": "9743",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 38,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/44 LOURO CLARO ACOBREADO INTENSO 50ML",
+   "codigo": "9746",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 39,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/46 LOURO CLARO ACOBREADO AVERMELHADO 50ML",
+   "codigo": "9749",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 40,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/7 LOURO CLARO MARROM 50ML",
+   "codigo": "9752",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 41,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/89 LOURO CLARO PÉROLA  ACINZENTADO 50ML",
+   "codigo": "9732",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 42,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9.21 LOURO CLARÍSSIMO IRISADO 50ML",
+   "codigo": "9736",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 43,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/0 LOURO CLARÍSSIMO NATURAL 50ML",
+   "codigo": "9720",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6e4d9c04-6f70-11ef-82c4-66e2d24720a1.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 44,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/00 LOURO CLARÍSSIMO NATURAL INTENSO 50ML",
+   "codigo": "9725",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 45,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/1 LOURO CLARÍSSIMO ACINZENTADO 50ML",
+   "codigo": "9730",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a2f5c418-6f93-11ef-9b37-1a1de3e53967.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 46,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/31 LOURO CLARÍSSIMO BEGE 50ML",
+   "codigo": "9741",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 47,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/44 LOURO CLARÍSSIMO ACOBREEADO INTENSO 50ML",
+   "codigo": "9747",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 48,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 9/89 LOURO CLARÍSSIMO PÉROLA ACINZENTADO 50ML",
+   "codigo": "9733",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 49,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 0.43 VERMELHO DOURADO 50ML",
+   "codigo": "9821",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 50,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 1.0 PRETO 50ML",
+   "codigo": "9772",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4210f5e8-6eec-11ef-b53a-1ef6fcacc62b.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 51,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 10.0 LOURO SUPER CLARO NATURAL 50ML",
+   "codigo": "9780",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fd0e7936-6f70-11ef-a336-02607f099852.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 52,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 10.21 LOURO SUPER CLARO IRISADO CINZA 50ML",
+   "codigo": "9786",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 53,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 12.02 LOURÍSSIMO NATURAL IRISADO 50ML",
+   "codigo": "9810",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 54,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 12.1 LOURÍSSIMO ACINZENTADO 50ML",
+   "codigo": "9811",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 55,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 12.12 LOURÍSSIMO CINZA IRISADO 50ML",
+   "codigo": "9813",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/86298738-79a3-11ef-8dbb-6a8ec1e68bd1.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 56,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 3.0 CASTANHO ESCURO NATURAL 50ML",
+   "codigo": "9773",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6df7f648-6f6e-11ef-b72a-02743f2b0bfe.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 57,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 4.0 CASTANHO MÉDIO NATURAL 50ML",
+   "codigo": "9774",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a70432fe-76ac-11ef-b4d4-e64bb7cef904.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 58,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 5.55 CASTANHO CLARO ACAJU 50 ML",
+   "codigo": "9802",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 59,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.1 LOURO ESCURO CINZA 50ML",
+   "codigo": "9781",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d39ad79e-6f74-11ef-b124-be18f164037a.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 60,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.31 LOURO ESCURO BEGE 50ML",
+   "codigo": "9787",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 61,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.4 LOURO ESCURO ACOBREADO 50ML",
+   "codigo": "9803",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3d0e4b6e-79a4-11ef-aca4-4efa0eb6e8bf.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 62,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.7 LOURO ESCURO MARROM 50ML",
+   "codigo": "9794",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 63,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.71 LOURO ESCURO MARROM ACINZENTADO 50ML",
+   "codigo": "9797",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 64,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.73 LOURO ESCURO MARROM DOURADO 50ML",
+   "codigo": "9799",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 65,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 66.44 LOURO ESCURO INTENSO VERMELHO INTENSO 50ML",
+   "codigo": "9808",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 66,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 66.46 LOURO ESCURO INTENSO VERMELHO VIOLETA 50ML",
+   "codigo": "9807",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 67,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.4 LOURO MÉDIO ACOBREADO 50ML",
+   "codigo": "9804",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4fd7fd7a-79a5-11ef-93b0-b2eacfb49f74.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 68,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.71 LOURO MÉDIO MARROM ACINZENTADO 50ML",
+   "codigo": "9798",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 69,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.73 LOURO MÉDIO MARROM DOURADO 50ML",
+   "codigo": "9800",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 70,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.1 LOURO CLARO CINZA 50ML",
+   "codigo": "9783",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c0aff7be-fd1b-11f0-88ae-12b0f709deb0.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c344379c-fd1b-11f0-839c-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 71,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.4 LOURO CLARO ACOBREADO 50ML",
+   "codigo": "9805",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a7a0cd98-79a5-11ef-9a68-c28093232913.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 72,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.56 MARSALA 50ML",
+   "codigo": "9806",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c0aff7be-fd1b-11f0-88ae-12b0f709deb0.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 73,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 9.0 LOURO CLARÍSSIMO NATURAL 50ML",
+   "codigo": "9779",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6e4d9c04-6f70-11ef-82c4-66e2d24720a1.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 74,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 9.1 LOURO CLARÍSSIMO CINZA 50ML",
+   "codigo": "9784",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 75,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 9.21 LOURO CLARÍSSIMO IRISADO CINZA 50ML",
+   "codigo": "9785",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 76,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX AZUL 50ML",
+   "codigo": "9816",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 77,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX CONCENTRADO CINZA 50ML",
+   "codigo": "9815",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 78,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX DOURADO 50ML",
+   "codigo": "9817",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 79,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX LOURO CLARO MARROM DOURADO 50ML",
+   "codigo": "9801",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 80,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX LOURO MÉDIO BEGE 50ML",
+   "codigo": "9788",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 81,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX LOURO MÉDIO CINZA 50ML",
+   "codigo": "9782",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 82,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX VERMELHO 50ML",
+   "codigo": "9818",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 83,
+   "nome": "CONDICIONADOR DOHA NATURAL HYDRATION 3L",
+   "codigo": "9706",
+   "unidade": "UN",
+   "preco": 132.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/549ab4f6-6c8a-11ef-b30d-127d78fde7de.webp"
+   ],
+   "descricao": null,
+   "categoria": "condicionador"
+  },
+  {
+   "ordem": 84,
+   "nome": "CONDICIONADOR DOHA NUTRITIONAL COMPLEX RECONSTRUTOR 3L",
+   "codigo": "9707",
+   "unidade": "UN",
+   "preco": 132.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ecf38e82-6eea-11ef-b4d2-febc7e04429a.webp"
+   ],
+   "descricao": null,
+   "categoria": "condicionador"
+  },
+  {
+   "ordem": 85,
+   "nome": "CONDICIONADOR DOHA PROFISSIONAL INTELLIGENT BALANCE DETOX 3L",
+   "codigo": "9705",
+   "unidade": "UN",
+   "preco": 132.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bf8dc10a-6c89-11ef-b787-daab804fee7a.webp"
+   ],
+   "descricao": null,
+   "categoria": "condicionador"
+  },
+  {
+   "ordem": 86,
+   "nome": "LEAVE-IN DOHA XTREME REPAIR BIFÁSICO 250ML",
+   "codigo": "9708",
+   "unidade": "UN",
+   "preco": 48.5,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3b1aa2e4-6eeb-11ef-a226-465d754baa10.jpg"
+   ],
+   "descricao": null,
+   "categoria": "leave-in"
+  },
+  {
+   "ordem": 87,
+   "nome": "MÁSCARA DOHA HIDRATAÇÃO INTENSA DAILY AMAZON 500ML",
+   "codigo": "9770",
+   "unidade": "UN",
+   "preco": 76.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ee514390-7530-11ef-b79c-3e1cae272ebe.jpeg"
+   ],
+   "descricao": null,
+   "categoria": "mascara"
+  },
+  {
+   "ordem": 88,
+   "nome": "MÁSCARA DOHA RECONSTRUÇÃO MÁXIMA BLOND VIVANCE 500ML",
+   "codigo": "9825",
+   "unidade": "UN",
+   "preco": 76.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c429230-7531-11ef-b019-421e9439428e.webp"
+   ],
+   "descricao": null,
+   "categoria": "mascara"
+  },
+  {
+   "ordem": 89,
+   "nome": "MÁSCARA MATIZADORA DOHA BLOND VIVANCE VIOLET 500ML",
+   "codigo": "9822",
+   "unidade": "UN",
+   "preco": 76.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4d8c4f3a-7531-11ef-b74f-724b37fc8794.webp"
+   ],
+   "descricao": null,
+   "categoria": "mascara"
+  },
+  {
+   "ordem": 90,
+   "nome": "MÁSCARA RECONSTRUTORA DOHA DNA LINK 500ML",
+   "codigo": "9771",
+   "unidade": "UN",
+   "preco": 76.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6f76b072-7531-11ef-9293-5225ea140782.webp"
+   ],
+   "descricao": null,
+   "categoria": "mascara"
+  },
+  {
+   "ordem": 91,
+   "nome": "ÓLEO CAPILAR DOHA BLOND VIVANCE OIL  30ML",
+   "codigo": "9710",
+   "unidade": "UN",
+   "preco": 33.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a5eb75ee-6eeb-11ef-a123-76157fb8733d.webp"
+   ],
+   "descricao": null,
+   "categoria": "oleo-capilar"
+  },
+  {
+   "ordem": 92,
+   "nome": "ÓLEO CAPILAR DOHA DAILY AMAZON OIL 30 ML",
+   "codigo": "9709",
+   "unidade": "UN",
+   "preco": 33.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6fbffb5c-6eeb-11ef-a123-76157fb8733d.webp"
+   ],
+   "descricao": null,
+   "categoria": "oleo-capilar"
+  },
+  {
+   "ordem": 93,
+   "nome": "PÓ DESCOLORANTE DOHA AZUL ROYAL FANTASIE 500G",
+   "codigo": "9696",
+   "unidade": "UN",
+   "preco": 67.9,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6fd15a3a-6c86-11ef-84c5-e281bb107e67.webp"
+   ],
+   "descricao": null,
+   "categoria": "po-descolorante"
+  },
+  {
+   "ordem": 94,
+   "nome": "PÓ DESCOLORANTE DOHA BRANCO ROYAL FANTASIE 500G",
+   "codigo": "9697",
+   "unidade": "UN",
+   "preco": 67.9,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/95dba41a-6c86-11ef-85d3-769361369b23.webp"
+   ],
+   "descricao": null,
+   "categoria": "po-descolorante"
+  },
+  {
+   "ordem": 95,
+   "nome": "PÓ DESCOLORANTE DOHA PLEX ROYAL FANTASIE 500G",
+   "codigo": "9698",
+   "unidade": "UN",
+   "preco": 67.9,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f885c3d4-6c86-11ef-b984-b6a246e1224a.webp"
+   ],
+   "descricao": null,
+   "categoria": "po-descolorante"
+  },
+  {
+   "ordem": 96,
+   "nome": "REDUTOR DE VOLUME DOHA BIOLIZZ KERATIN REALINHAMENTO CAPILAR STEP 2 120ML",
+   "codigo": "9768",
+   "unidade": "UN",
+   "preco": 27,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d247ed60-7531-11ef-a951-1a3b66922d58.webp"
+   ],
+   "descricao": null,
+   "categoria": "realinhamento-capilar"
+  },
+  {
+   "ordem": 97,
+   "nome": "SÉRUM ATIVADOR DOHA BIOLIZZ KERATIN STEP 1 1L",
+   "codigo": "9699",
+   "unidade": "UN",
+   "preco": 123.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4b505e30-6c87-11ef-a10c-daab804fee7a.webp"
+   ],
+   "descricao": null,
+   "categoria": "serum-ativador"
+  },
+  {
+   "ordem": 98,
+   "nome": "SÉRUM NOTURNO DOHA BLOND VIVANCE S.O.S NIGHT REPAIR 120ML",
+   "codigo": "9826",
+   "unidade": "UN",
+   "preco": 52.9,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/16405dbc-7533-11ef-be3f-3e1cae272ebe.webp"
+   ],
+   "descricao": null,
+   "categoria": "serum-ativador"
+  },
+  {
+   "ordem": 99,
+   "nome": "SHAMPOO DOHA DNA LINK 1L",
+   "codigo": "9701",
+   "unidade": "UN",
+   "preco": 94.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c48da99c-6c87-11ef-8162-a6f1ee5ecf20.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  },
+  {
+   "ordem": 100,
+   "nome": "SHAMPOO DOHA NUTRITIONAL COMPLEX RECONSTRUTOR 3L",
+   "codigo": "9704",
+   "unidade": "UN",
+   "preco": 152.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2e24a3aa-6c89-11ef-acf9-769361369b23.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  },
+  {
+   "ordem": 101,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 1/0 PRETO 50ML",
+   "codigo": "9713",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4210f5e8-6eec-11ef-b53a-1ef6fcacc62b.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 102,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/0 LOURO ESCURO NATURAL 50ML",
+   "codigo": "9717",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/47b628a0-6f6f-11ef-8ef3-5a24105e9679.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 103,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 6/7 LOURO ESCURO MARROM 50ML",
+   "codigo": "9750",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 104,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/0 LOURO MÉDIO NATURAL 50ML",
+   "codigo": "9718",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8fc76bea-6f6f-11ef-bf56-3a34e288c5e8.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 105,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 7/73 LOURO MÉDIO MARROM DOURADO 50ML",
+   "codigo": "9756",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 106,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/31 LOURO ESCURO BEGE 50ML",
+   "codigo": "9740",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 107,
+   "nome": "COLORAÇÃO DOHA ROYAL FANTASIE 8/73 LOURO CLARO MARROM DOURADO 50ML",
+   "codigo": "9757",
+   "unidade": "UN",
+   "preco": 22.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c52ea94-6eec-11ef-820d-f6615e066eb7.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 108,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 10.89 LOURO SUPER CLARO PÉROLA 50ML",
+   "codigo": "9809",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 109,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 12.11 LOURÍSSIMO ACINZENTADO INTENSO 50ML",
+   "codigo": "9812",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d8c808bc-79a2-11ef-b79d-268aa4da2c82.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 110,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 5.0 CASTANHO CLARO NATURAL 50ML",
+   "codigo": "9775",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/115c1e86-6f6f-11ef-8198-ce67d0ae9099.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 111,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 6.3 LOURO ESCURO DOURADO 50ML",
+   "codigo": "9791",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 112,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.0 LOURO MÉDIO NATURAL 50ML",
+   "codigo": "9777",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8fc76bea-6f6f-11ef-bf56-3a34e288c5e8.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 113,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.3 LOURO MÉDIO DOURADO 50ML",
+   "codigo": "9792",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 114,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 7.7 LOURO MÉDIO MARROM 50ML",
+   "codigo": "9795",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 115,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.0 LOURO CLARO NATURAL 50ML",
+   "codigo": "9778",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/befe3308-6f6f-11ef-b4b6-9a76940013e9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 116,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.3 LOURO CLARO DOURADO 50ML",
+   "codigo": "9793",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 117,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.31 LOURO CLARO BEGE 50ML",
+   "codigo": "9789",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7cc29702-76ab-11ef-86bf-22529cb99eb9.webp"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 118,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 8.7 LOURO CLARO MARROM 50ML",
+   "codigo": "9796",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/37dc3938-e553-11ef-a612-4ac963f50b42.jpg"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 119,
+   "nome": "COLORAÇÃO PERMANENTE DOHA HIRIX 9.31 LOURO CLARÍSSIMO BEGE 50ML",
+   "codigo": "9790",
+   "unidade": "UN",
+   "preco": 16.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ede36d10-fd1b-11f0-825e-3ee58b6bfd7f.png"
+   ],
+   "descricao": null,
+   "categoria": "coloracao"
+  },
+  {
+   "ordem": 120,
+   "nome": "CREME OXIDANTE DOHA 30 VOLUMES 900ML",
+   "codigo": "9819",
+   "unidade": "UN",
+   "preco": 37.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e5b22ae4-752e-11ef-a71d-02682f5edaf6.png"
+   ],
+   "descricao": null,
+   "categoria": "creme-oxidante"
+  },
+  {
+   "ordem": 121,
+   "nome": "CREME OXIDANTE DOHA 40 VOLUMES 900ML",
+   "codigo": "9820",
+   "unidade": "UN",
+   "preco": 37.5,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/50bf5096-752f-11ef-92b5-120eaa05a7a7.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-oxidante"
+  },
+  {
+   "ordem": 122,
+   "nome": "ÓLEO REPARADOR DOHA XTREME REPAIR OIL 30ML",
+   "codigo": "9711",
+   "unidade": "UN",
+   "preco": 33.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c7f261d4-6eeb-11ef-9d53-76157fb8733d.jpg"
+   ],
+   "descricao": null,
+   "categoria": "oleo-capilar"
+  },
+  {
+   "ordem": 123,
+   "nome": "SHAMPOO DOHA BLOND VIVANCE 1L",
+   "codigo": "9824",
+   "unidade": "UN",
+   "preco": 94.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3451ffc2-7533-11ef-b43c-5225ea140782.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  },
+  {
+   "ordem": 124,
+   "nome": "SHAMPOO DOHA BLOND VIVANCE VIOLET 1L",
+   "codigo": "9823",
+   "unidade": "UN",
+   "preco": 94.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5929203c-7533-11ef-91a1-aad4290bb89f.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  },
+  {
+   "ordem": 125,
+   "nome": "SHAMPOO DOHA DAILY AMAZON 1L",
+   "codigo": "9700",
+   "unidade": "UN",
+   "preco": 94.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6dae6f30-6c87-11ef-a8cb-2a96096de837.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  },
+  {
+   "ordem": 126,
+   "nome": "SHAMPOO DOHA NATURAL HYDRATION 3L",
+   "codigo": "9703",
+   "unidade": "UN",
+   "preco": 152.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f488d166-6c88-11ef-aec4-b68c394da51b.webp"
+   ],
+   "descricao": null,
+   "categoria": "shampoo"
+  }
+ ]
+}

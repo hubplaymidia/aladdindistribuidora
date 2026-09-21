@@ -1,0 +1,28 @@
+{
+ "fonte": "Catálogo oficial da plataforma Meus Pedidos (representada 454961), extraído em 22/09/2026 — modo: strict",
+ "regras": "Excluídos: outras marcas, abaixo de R$ 1,00 (amostras), sem foto. Esgotados mantidos como sem estoque.",
+ "total": 1,
+ "categorias": [
+  {
+   "nome": "Brilho Labial Morango",
+   "slug": "brilho-labial-morango",
+   "ordem": 0
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "BRILHO LABIAL MORANGO SP PODERES POTE C/ 60 UN",
+   "codigo": "9195",
+   "unidade": "POTE",
+   "preco": 130,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a68d15aa-0ba1-11ef-8f16-06517805f2a5.webp"
+   ],
+   "descricao": null,
+   "categoria": "brilho-labial-morango"
+  }
+ ]
+}

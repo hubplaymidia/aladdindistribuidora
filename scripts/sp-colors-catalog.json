@@ -1,0 +1,971 @@
+{
+ "fonte": "Catálogo oficial da plataforma Meus Pedidos (representada 454961), extraído em 22/09/2026 — modo: all",
+ "regras": "Todos os itens da página cadastrados. Esgotados mantidos como sem estoque.",
+ "total": 60,
+ "categorias": [
+  {
+   "nome": "SP Acessórios",
+   "slug": "sp-acessorios",
+   "ordem": 0
+  },
+  {
+   "nome": "SP Rosto",
+   "slug": "sp-rosto",
+   "ordem": 1
+  },
+  {
+   "nome": "SP Olhos",
+   "slug": "sp-olhos",
+   "ordem": 2
+  },
+  {
+   "nome": "SP Labios",
+   "slug": "sp-labios",
+   "ordem": 3
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "SP-P04 PINCEL PARA OLHOS GRACIOSA P/ DETALHES SP COLORS - DSPL C/12 UN",
+   "codigo": "9037",
+   "unidade": "DSPL",
+   "preco": 55.2,
+   "esgotado": false,
+   "saldo": 43,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/73305d8e-cb6e-11ee-8ded-12cbcfd48091.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 1,
+   "nome": "SP-P06 PINCEL PARA OLHOS GRACIOSA P/ SOMBRAS SP COLORS - DSPL C/12 UN",
+   "codigo": "9038",
+   "unidade": "DSPL",
+   "preco": 54,
+   "esgotado": false,
+   "saldo": 41,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8b3aee1c-cb6e-11ee-89de-5201ef3ee66a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 2,
+   "nome": "SP-P12 PINCEL PARA MAQUIAGEM ENCANTO SP COLORS - DSPL C/12 UN",
+   "codigo": "9163",
+   "unidade": "DSPL",
+   "preco": 58.8,
+   "esgotado": false,
+   "saldo": 31,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/03cef8e4-064a-11ef-b8ce-5a83755e0881.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 3,
+   "nome": "SP-P14 PINCEL PARA MAQUIAGEM ENCANTO SP COLORS - DSPL C/12 UN",
+   "codigo": "9165",
+   "unidade": "DSPL",
+   "preco": 58.8,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/30463460-0644-11ef-a9fe-66f3fbf1091a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 4,
+   "nome": "SP-P15 PINCEL PARA MAQUIAGEM ENCANTO SP COLORS - DSPL C/ 12 UN",
+   "codigo": "9166",
+   "unidade": "DSPL",
+   "preco": 58.8,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1fe91f50-064a-11ef-b8ce-5a83755e0881.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 5,
+   "nome": "SP-P16 PINCEL PARA MAQUIAGEM ENCANTO SP COLORS - DSPL C/12 UN",
+   "codigo": "9167",
+   "unidade": "DSPL",
+   "preco": 58.8,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/80f39582-064a-11ef-a9d0-66f3fbf1091a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 6,
+   "nome": "SP-P17 KIT DE PINCEIS PARA MAQUIAGEM TO GO SP COLORS - DSPL C/12 UN",
+   "codigo": "9040",
+   "unidade": "DSPL",
+   "preco": 178.8,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bce4e634-cb6e-11ee-b603-2a400a5bbfc8.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 7,
+   "nome": "SP163A BASE LIQUIDA MATTE SP COLORS DSPL C/24",
+   "codigo": "4837",
+   "unidade": "DSPL",
+   "preco": 270,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/77a409da-ae21-11ed-8e62-129436f91ea1.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 8,
+   "nome": "SP163B BASE LIQUIDA MATTE SP COLORS DSPL C/24",
+   "codigo": "4848",
+   "unidade": "DSPL",
+   "preco": 270,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5ab6d542-b90b-11ed-b19e-b60c4c0c55a2.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0482b50e-f5d4-11ee-9a9e-c68ac3b7f556.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/04a6504a-f5d4-11ee-9a9e-c68ac3b7f556.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/04bc9ce2-f5d4-11ee-9a9e-c68ac3b7f556.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/04d3cf70-f5d4-11ee-9a9e-c68ac3b7f556.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 9,
+   "nome": "SP212 BLUSH CREMOSO SP COLORS DSPL C/24 UN",
+   "codigo": "9537",
+   "unidade": "DSPL",
+   "preco": 211.2,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/004ca248-1dba-11ef-9393-9a26e8e65961.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 10,
+   "nome": "SP222 PALETA DE SOMBRAS COLECÃO TROPICAL SP COLORS DSPL C/24 UN",
+   "codigo": "9841",
+   "unidade": "DSPL",
+   "preco": 244.8,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/127daf9e-6a03-11ef-808d-2af1930164a3.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/16013e1a-6a03-11ef-a510-463acdf93cf5.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 11,
+   "nome": "SP241 GLITTER SOMBRA I HAVE A BIG DREAM PALETA DE SOMBRAS SP COLORS 9 CORES DSPL C/24",
+   "codigo": "4754",
+   "unidade": "DSPL",
+   "preco": 364.9,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/74b5c8ba-9d75-11ed-968d-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a9e77470-9d75-11ed-997a-824396d48b87.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ca99158e-9d75-11ed-bc52-f26c482752c4.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d8c38874-9d75-11ed-80a2-9a50f6786214.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e19c82de-9d75-11ed-9664-1ec5fa6647b6.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 12,
+   "nome": "SP256 FOLLOW THE GLOW ILUMINADOR 4 CORES SP COLORS DSPL C/24",
+   "codigo": "4743",
+   "unidade": "DSPL",
+   "preco": 275.45,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fc4b54f0-9d77-11ed-a2df-3eb65363ceeb.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/05ab4bf4-9d78-11ed-8428-824396d48b87.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1358d514-9d78-11ed-831f-d6e60edb37d4.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1cd01454-9d78-11ed-8f7a-c2b52ef13ece.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2a86154e-9d78-11ed-81a4-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/399b5242-9d78-11ed-81a4-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/42ec3dac-9d78-11ed-8428-824396d48b87.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/53ba7310-9d78-11ed-bbe1-1ec5fa6647b6.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5c1acf46-9d78-11ed-bbe1-1ec5fa6647b6.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 13,
+   "nome": "SP257 MIAUS CATS COLLECTION PALETA DE SOMBRAS 9 CORES SP COLORS DSPL C/12",
+   "codigo": "4751",
+   "unidade": "DSPL",
+   "preco": 287.4,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7ccc775e-9d81-11ed-a4cb-560edbb52ce2.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/85ac5376-9d81-11ed-8228-aaae75812c7c.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/902109dc-9d81-11ed-a4cb-560edbb52ce2.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9edbd1d2-9d81-11ed-a4cb-560edbb52ce2.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 14,
+   "nome": "SP258 MIAUS CATS COLLECTION PALETA DE SOMBRAS SP COLORS 9 CORES DSPL C/12",
+   "codigo": "4755",
+   "unidade": "DSPL",
+   "preco": 291.82,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/57a8b348-9d81-11ed-97d4-42547cde2b2b.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2152bd70-9d81-11ed-97d4-42547cde2b2b.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c5b08ee-9d81-11ed-8130-4228ebf10da5.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/35ef381c-9d81-11ed-a86e-12e5703bc589.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/42874308-9d81-11ed-97d4-42547cde2b2b.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4b57430c-9d81-11ed-97d4-42547cde2b2b.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 15,
+   "nome": "SP261 CLEOPATRA SECRETS CONTORNO 2 CORES SP COLORS DSPL C/24",
+   "codigo": "4745",
+   "unidade": "DSPL",
+   "preco": 235.5,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3a37e6c6-9d77-11ed-81a4-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/577bd8fa-9d77-11ed-8e43-824396d48b87.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/845189c4-9d77-11ed-831f-d6e60edb37d4.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/93f6030a-9d77-11ed-81a4-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a06fe4fc-9d77-11ed-831f-d6e60edb37d4.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 16,
+   "nome": "SP262  PALETA DE SOMBRAS 8 CORES CLEOPATRA SECRETS GLITTER SP COLORS DSPL C/12 UN",
+   "codigo": "4750",
+   "unidade": "DSPL",
+   "preco": 165.4,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3415e9d6-9d82-11ed-86d2-6e556e85fe24.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3ae98628-9d82-11ed-972e-ba3fa0132d43.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/478c9032-9d82-11ed-be6d-4e55960492ce.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/567e9cb6-9d82-11ed-addd-d24e2d3fbba2.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5ca2cedc-9d82-11ed-80f1-8a4b671ac716.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 17,
+   "nome": "SP267 FEEL GOOD TIME PALETA DE SOMBRAS 6 CORES SP COLORS DSPL C/24",
+   "codigo": "4749",
+   "unidade": "DSPL",
+   "preco": 219.3,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e046f4b8-9d76-11ed-bb25-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/eadecb80-9d76-11ed-bb25-d697d585dbcd.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f824f33c-9d76-11ed-8e43-824396d48b87.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 18,
+   "nome": "SP281 GUARDIAN ANGEL GLOSS LABIAL SP COLORS DSPL C/24",
+   "codigo": "4836",
+   "unidade": "DSPL",
+   "preco": 192,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/02c0bd24-ae1d-11ed-b620-8a45607096ae.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/12c1c376-ae1d-11ed-b620-8a45607096ae.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/20dd42aa-ae1d-11ed-922f-aee38f19a902.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/312d75d0-ae1d-11ed-943f-1a6e6ad5dea9.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3bb84de0-ae1d-11ed-b953-0a8dc7a9caa6.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/41d0f1a0-ae1d-11ed-9fe5-9eeea35228af.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4efa80a8-ae1d-11ed-9d32-96e6b090c4e0.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/558e0c50-ae1d-11ed-9fe5-9eeea35228af.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 19,
+   "nome": "SP282 BLUSH LOVERS 3 CORES SP COLORS DSPL C/24",
+   "codigo": "4741",
+   "unidade": "DSPL",
+   "preco": 192.5,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/677b2d20-9d7a-11ed-bd06-eedc5757ff23.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/75978dc2-9d7a-11ed-994e-4a9b19eb2b92.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7d323b54-9d7a-11ed-8f5a-d697d585dbcd.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 20,
+   "nome": "SP291 MY LUCKY CHARMS PALETA DE SOMBRAS SP COLORS DSPL C/ 24UN",
+   "codigo": "8908",
+   "unidade": "DSPL",
+   "preco": 189.6,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f6d2d698-7a52-11ee-bdc4-f62b68b41e82.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/121e7078-f5d8-11ee-9fdb-4e4c753c6b86.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1235c994-f5d8-11ee-9fdb-4e4c753c6b86.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/124c2bc6-f5d8-11ee-9fdb-4e4c753c6b86.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1263f990-f5d8-11ee-9fdb-4e4c753c6b86.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/127c5cb0-f5d8-11ee-9fdb-4e4c753c6b86.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 21,
+   "nome": "SP300 LIP BALM SP COLORS DSPL C/24 UN",
+   "codigo": "8668",
+   "unidade": "DSPL",
+   "preco": 192,
+   "esgotado": false,
+   "saldo": 13,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ddac066e-3b67-11ee-8fe7-f6a1f2cdf8bd.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/dd82bade-3b67-11ee-8fe7-f6a1f2cdf8bd.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/987a863c-f5da-11ee-9e51-8e47fbce8286.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/98bd4724-f5da-11ee-9e51-8e47fbce8286.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/98d30898-f5da-11ee-9e51-8e47fbce8286.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/98e9c0f6-f5da-11ee-9e51-8e47fbce8286.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/98fd92f2-f5da-11ee-9e51-8e47fbce8286.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 22,
+   "nome": "SP302 I WISH ILUMINADOR  DSPL C/24",
+   "codigo": "8605",
+   "unidade": "DSPL",
+   "preco": 148.9,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/19f9b938-2c7a-11ee-b490-9ef0ca209875.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2beede86-f5d6-11ee-834d-ee3989a5b7a5.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c0fe072-f5d6-11ee-834d-ee3989a5b7a5.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c29f606-f5d6-11ee-834d-ee3989a5b7a5.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c457e58-f5d6-11ee-834d-ee3989a5b7a5.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c5fe680-f5d6-11ee-834d-ee3989a5b7a5.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 23,
+   "nome": "SP304 THE SECRET KEY PALETA DE SOMBRAS SP COLORS DSPL C/12 UN",
+   "codigo": "9032",
+   "unidade": "DSPL",
+   "preco": 169.8,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d70f0386-cc05-11ee-9e16-6e74a9332dcc.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c283580-f5d8-11ee-b80b-32383fb40706.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c4b4e58-f5d8-11ee-b80b-32383fb40706.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2c61a522-f5d8-11ee-b80b-32383fb40706.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 24,
+   "nome": "SP306 BLUSH I LOVE COUPONS SP COLORS DSPL C/24 UN",
+   "codigo": "8665",
+   "unidade": "DSPL",
+   "preco": 153.6,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/220ec30a-3b68-11ee-8e9e-42b4174777d1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/21f5a492-3b68-11ee-8e9e-42b4174777d1.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a61b2f2e-f5d2-11ee-861e-26dc9605a228.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a6473b14-f5d2-11ee-861e-26dc9605a228.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a6627fe6-f5d2-11ee-861e-26dc9605a228.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a67e917c-f5d2-11ee-861e-26dc9605a228.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a693f1a2-f5d2-11ee-861e-26dc9605a228.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 25,
+   "nome": "SP307 I WISH GLITTER DSPL C/24",
+   "codigo": "8606",
+   "unidade": "DSPL",
+   "preco": 181.8,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/658bba2c-2c7a-11ee-80b8-0e81011395ed.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a07944d4-f5d7-11ee-be1f-76bdeb81479f.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a097708a-f5d7-11ee-be1f-76bdeb81479f.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b69dff3e-f5d7-11ee-8251-52aab41b2560.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b6dcb3d2-f5d7-11ee-8251-52aab41b2560.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 26,
+   "nome": "SP309 PALETA DE SOMBRAS FUTURE IS NOW SP COLORS DSPL C/24 UN",
+   "codigo": "9838",
+   "unidade": "DSPL",
+   "preco": 238.8,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9abc8764-6a02-11ef-b042-42896257d36b.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9d7c25d6-6a02-11ef-b2ee-2af1930164a3.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 27,
+   "nome": "SP312 SHOW TIME BLUSH PALETA DE SOMBRAS DSPL C/24 UN",
+   "codigo": "9845",
+   "unidade": "DSPL",
+   "preco": 270,
+   "esgotado": false,
+   "saldo": 13,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4da7b962-6a02-11ef-bf1e-1adcb9c95b5f.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/51457550-6a02-11ef-99a5-b6cb118794eb.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 28,
+   "nome": "SP314 ILUMINADOR FUTURE IS NOW SP COLORS DSPL C/ 24 UN",
+   "codigo": "9170",
+   "unidade": "DSPL",
+   "preco": 261.6,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0c4239f2-f5d6-11ee-9330-16725a2f532c.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0c948464-f5d6-11ee-9330-16725a2f532c.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0ca90fd8-f5d6-11ee-9330-16725a2f532c.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/0cc03956-f5d6-11ee-9330-16725a2f532c.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 29,
+   "nome": "SP317 HELLO ILUMINADOR CREMOSO SP COLORS DSPL C/24 UN",
+   "codigo": "9027",
+   "unidade": "DSPL",
+   "preco": 187.2,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/278954e2-cc06-11ee-a59f-122c1a73eddc.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e50bb18a-f5d3-11ee-b32b-723c60988678.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e5347f02-f5d3-11ee-b32b-723c60988678.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e552bc4c-f5d3-11ee-b32b-723c60988678.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e5703e34-f5d3-11ee-b32b-723c60988678.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e591d13e-f5d3-11ee-b32b-723c60988678.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 30,
+   "nome": "SP322 GRACIAS TRIO DE SOMBRAS SP COLORS DSPL C/ 24 UN",
+   "codigo": "9225",
+   "unidade": "DSPL",
+   "preco": 148.8,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6f1c89d0-0650-11ef-a946-e6d0ee2e4ef0.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7369bf30-0650-11ef-a4e6-3a2c14a4f74a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 31,
+   "nome": "SP326 PALETA DE SOMBRAS MYSTICAL MAGIC SP COLORS DSPL C/24 UN",
+   "codigo": "9843",
+   "unidade": "DSPL",
+   "preco": 219.5,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c4f5a3f4-6a01-11ef-8fc6-22de4c2f20bd.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c8413f8c-6a01-11ef-9eac-9e0f022435b6.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 32,
+   "nome": "SP327 ILUMINADOR MYSTICAL MAGIC SP COLORS DSPL C/24 UN",
+   "codigo": "9836",
+   "unidade": "DSPL",
+   "preco": 274.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3b82eef6-69fc-11ef-96c8-7e31ba02b570.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3f44f232-69fc-11ef-9fde-fe48b1d94f1f.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 33,
+   "nome": "SP332 CHERRY BLOSSOM ILUMINADOR + CHERRY BLOSSOM BLUSH SP COLORS DSPL C/24 UN",
+   "codigo": "9539",
+   "unidade": "DSPL",
+   "preco": 156,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8090302e-1db9-11ef-be1e-c2c43124744a.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 34,
+   "nome": "SP333 PALETA DE CORES CHERRY BLOSSOM SP COLORS DSPL C/24 UN",
+   "codigo": "9839",
+   "unidade": "DSPL",
+   "preco": 262.9,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/41c52f82-69fb-11ef-af37-7e31ba02b570.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/46965a72-69fb-11ef-8248-e685713b96e4.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 35,
+   "nome": "SP335 PALETA DE SOMBRAS MY LOVE STORY SP COLORS DSPL C/24 UN",
+   "codigo": "9942",
+   "unidade": "DSPL",
+   "preco": 268.8,
+   "esgotado": false,
+   "saldo": 11,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c7d7d190-7b32-11ef-b7b3-a6a6a139ce31.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 36,
+   "nome": "SP338 CONTORNO E BRONZER MY LOVE STORY SP COLORS DSPL C/24 UN",
+   "codigo": "9944",
+   "unidade": "DSPL",
+   "preco": 230.4,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2f0ec472-7b33-11ef-8f00-f2583db5c71b.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 37,
+   "nome": "SP350 PALETA DE SOMBRAS 9 CORES DOCINHOS BRASILEIROS SP COLORS DSPL C/24 UN",
+   "codigo": "9840",
+   "unidade": "DSPL",
+   "preco": 228.8,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/00cde9a6-69fb-11ef-ae78-aee008853915.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/040dfdcc-69fb-11ef-b394-3a42dda1a025.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 38,
+   "nome": "SP352 LIP BALM DOCINHOS BRASILEIROS SP COLORS - DSPL C/24 UN",
+   "codigo": "10105",
+   "unidade": "DSPL",
+   "preco": 152.4,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6d929b4e-f2cd-11ef-8982-2ad3705ee089.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/73090914-f2cd-11ef-8af3-c68454dbb391.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 39,
+   "nome": "SP357 PALETA DE SOMBRAS LOVE MYSELF SP COLORS DSPL C/12 UN",
+   "codigo": "9844",
+   "unidade": "DSPL",
+   "preco": 299.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8758b3d0-69fa-11ef-9cf3-2618541b5a4a.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8d2b02e0-69fa-11ef-a135-0a02c9ff58f2.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 40,
+   "nome": "SP372 MULTI BROW 3X1 SOMBRA, LAPISEIRA E ESCOVINHA SP COLORS - DSPL C/48 UN",
+   "codigo": "10102",
+   "unidade": "DSPL",
+   "preco": 390,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/94cd44ee-f2cc-11ef-8c2e-f69df978c0a1.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/994de8de-f2cc-11ef-bb79-7a17e78776b8.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 41,
+   "nome": "SP373 MEUS BICHINHOS LIP BALM TINT SP COLORS DSPL C/24 UN",
+   "codigo": "9959",
+   "unidade": "DSPL",
+   "preco": 148.8,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9c65585a-8d90-11ef-ab7c-2221fc6fc413.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 42,
+   "nome": "SP375 DELINEADOR COLORIDO NEON PARTY SP COLORS - DSPL C/36 UN",
+   "codigo": "10107",
+   "unidade": "DSPL",
+   "preco": 255.6,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5c3ab132-f2ce-11ef-a657-824ddcc154a5.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5ffc45d8-f2ce-11ef-b6bc-32e9310aa418.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-olhos"
+  },
+  {
+   "ordem": 43,
+   "nome": "SP377 BIGGER KISS LIP GLOSS SP COLORS DSPL C/24 UN",
+   "codigo": "9960",
+   "unidade": "DSPL",
+   "preco": 201.6,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/cc7eeb32-8d90-11ef-ac44-82215dacf20a.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 44,
+   "nome": "SP383 BLUSH STICK PEPPER COLLECTION SP COLORS DSPL C/24 UN",
+   "codigo": "9943",
+   "unidade": "DSPL",
+   "preco": 283.2,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ff630076-7b32-11ef-b572-a218caf7ef92.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 45,
+   "nome": "SP385 PALETA DE SOMBRAS PEPPER COLLECTION SP COLORS DSPL C/24 UN",
+   "codigo": "9941",
+   "unidade": "DSPL",
+   "preco": 189.6,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/18c21a0c-7ab6-11ef-aac3-721b8dcb00a6.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 46,
+   "nome": "SP392 LIP OIL JUICE LIP SP COLORS DSPL C/24 UN",
+   "codigo": "9940",
+   "unidade": "DSPL",
+   "preco": 141.6,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/52a32d20-7ab5-11ef-a0c1-aa864e2ddc23.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 47,
+   "nome": "SP403 PALETA DE SOMBRAS FUNNY EGGS SP COLORS DSPL C/24 UN",
+   "codigo": "9842",
+   "unidade": "DSPL",
+   "preco": 244.8,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/17285002-69fa-11ef-bc57-1a2eab5bf80e.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/1ac3ffcc-69fa-11ef-aa23-0e9c9b307a08.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 48,
+   "nome": "SP408 LIP OIL TINT LOLLIPOP SP COLORS - DSPL C/24 UN",
+   "codigo": "10106",
+   "unidade": "DSPL",
+   "preco": 132,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e94cc200-f2cd-11ef-a98e-4a557680f2ea.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ef984332-f2cd-11ef-93bc-32e9310aa418.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-labios"
+  },
+  {
+   "ordem": 49,
+   "nome": "SPC04 CÍLIOS POSTIÇOS DAY BY DAY CX C/ 10 PARES",
+   "codigo": "8915",
+   "unidade": "DSPL",
+   "preco": 30,
+   "esgotado": false,
+   "saldo": 20,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bbce4b92-80c7-11ee-ad27-ae1b8c7a7cfb.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 50,
+   "nome": "SPC05 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8916",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c1b58a48-80c7-11ee-ad27-ae1b8c7a7cfb.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 51,
+   "nome": "SPC06 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8917",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c76ae834-80c7-11ee-a0bf-4aabbf864bb8.png"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 52,
+   "nome": "SPC08 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8919",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2671aeee-7a56-11ee-b19e-5600408bf6d5.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 53,
+   "nome": "SPC09 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8920",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/57a9ad54-7a56-11ee-b4c9-4aab97fb97c5.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 54,
+   "nome": "SPC10 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8921",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/20ede018-7a57-11ee-b06f-ae07b0a8142c.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 55,
+   "nome": "SPC13 CÍLIOS POSTIÇOS PREMIUM CX C/ 10 PARES",
+   "codigo": "8924",
+   "unidade": "DSPL",
+   "preco": 44.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/cdfca910-7a57-11ee-bbb9-4a6efe6e03b9.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 56,
+   "nome": "SPC14 CÍLIOS POSTIÇOS PREMIUM CX C/ 10 PARES",
+   "codigo": "8925",
+   "unidade": "DSPL",
+   "preco": 44.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f1250fa4-7a57-11ee-bbb9-4a6efe6e03b9.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  },
+  {
+   "ordem": 57,
+   "nome": "SP303 THE SECRET KEY CONTORNO / BRONZER SP COLORS DSPL C/24 UN",
+   "codigo": "9029",
+   "unidade": "DSPL",
+   "preco": 240,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b50de586-cc05-11ee-b305-8a738b370099.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/69e788ea-f5d7-11ee-b283-1e5ec05b3d49.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6a0f4e20-f5d7-11ee-b283-1e5ec05b3d49.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6a29a388-f5d7-11ee-b283-1e5ec05b3d49.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 58,
+   "nome": "SP316 GIRL SQUAD BLUSH EM PO DSPL C/24 UN",
+   "codigo": "8666",
+   "unidade": "DSPL",
+   "preco": 168,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5a3e0308-3b68-11ee-878d-f61beee5f3fe.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/5a18a612-3b68-11ee-878d-f61beee5f3fe.jpg",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ee96e5f6-f5d5-11ee-be36-7a84889d4422.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/eee354f4-f5d5-11ee-be36-7a84889d4422.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ef10fb3e-f5d5-11ee-be36-7a84889d4422.webp",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ef43715e-f5d5-11ee-be36-7a84889d4422.webp"
+   ],
+   "descricao": null,
+   "categoria": "sp-rosto"
+  },
+  {
+   "ordem": 59,
+   "nome": "SPC11 CÍLIOS POSTIÇOS GLAMOUR CX C/ 10 PARES",
+   "codigo": "8922",
+   "unidade": "DSPL",
+   "preco": 32.9,
+   "esgotado": true,
+   "saldo": 0,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/58cd84ac-7a57-11ee-a09b-5600408bf6d5.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sp-acessorios"
+  }
+ ]
+}

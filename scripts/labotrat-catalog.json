@@ -1,0 +1,1119 @@
+{
+ "fonte": "Catálogo oficial LABOTRAT — plataforma Meus Pedidos (representada 454961, categoria 3744620), extraído em 22/09/2026",
+ "regras": "Excluídos: outras marcas, abaixo de R$ 1,00 (amostras), sem foto. Esgotados mantidos como sem estoque.",
+ "total": 72,
+ "categorias": [
+  {
+   "nome": "Labotrat Pro",
+   "slug": "labotratpro",
+   "ordem": 0
+  },
+  {
+   "nome": "Argila",
+   "slug": "argila",
+   "ordem": 1
+  },
+  {
+   "nome": "Dermo Skin",
+   "slug": "dermo-skin",
+   "ordem": 2
+  },
+  {
+   "nome": "Body Splash",
+   "slug": "body-splash",
+   "ordem": 3
+  },
+  {
+   "nome": "Creme de Rachaduras",
+   "slug": "creme-de-rachaduras",
+   "ordem": 4
+  },
+  {
+   "nome": "Creme Hidratante",
+   "slug": "creme-hidratante",
+   "ordem": 5
+  },
+  {
+   "nome": "Creme Bronzeador",
+   "slug": "creme-bronzeador",
+   "ordem": 6
+  },
+  {
+   "nome": "Creme Parafina",
+   "slug": "creme-parafina",
+   "ordem": 7
+  },
+  {
+   "nome": "Esfoliante",
+   "slug": "esfoliante",
+   "ordem": 8
+  },
+  {
+   "nome": "Gel",
+   "slug": "gel",
+   "ordem": 9
+  },
+  {
+   "nome": "Hidratante",
+   "slug": "hidratante",
+   "ordem": 10
+  },
+  {
+   "nome": "Kit Banho de Lua",
+   "slug": "kit-banho-de-lua",
+   "ordem": 11
+  },
+  {
+   "nome": "Kit Sens",
+   "slug": "kit-sens",
+   "ordem": 12
+  },
+  {
+   "nome": "Máscara Facial",
+   "slug": "mascara-facial",
+   "ordem": 13
+  },
+  {
+   "nome": "Óleo Corporal",
+   "slug": "oleo-corporal",
+   "ordem": 14
+  },
+  {
+   "nome": "Pack Dia a Dia",
+   "slug": "pack-dia-a-dia",
+   "ordem": 15
+  },
+  {
+   "nome": "Sabonete Líquido",
+   "slug": "sabonete-liquido",
+   "ordem": 16
+  },
+  {
+   "nome": "Sais Espumantes",
+   "slug": "sais-espumantes",
+   "ordem": 17
+  },
+  {
+   "nome": "Shower Gel",
+   "slug": "shower-gel",
+   "ordem": 18
+  },
+  {
+   "nome": "Talco Pré-depilatório",
+   "slug": "talco-pre-depilatorio",
+   "ordem": 19
+  }
+ ],
+ "produtos": [
+  {
+   "ordem": 0,
+   "nome": "AMOLECEDOR DE CUTÍCULAS 90G LABOTRATPRO",
+   "codigo": "9531",
+   "unidade": "UN",
+   "preco": 8,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8166e21e-1ce6-11ef-b150-26b8dd8ffac6.webp"
+   ],
+   "descricao": null,
+   "categoria": "labotratpro"
+  },
+  {
+   "ordem": 1,
+   "nome": "ARGILA AMARELA C/ VITAMINA C 100G LABOTRAT",
+   "codigo": "9649",
+   "unidade": "UN",
+   "preco": 5.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/374ae502-48f8-11ef-87e3-a29f4dfb49f3.webp"
+   ],
+   "descricao": null,
+   "categoria": "argila"
+  },
+  {
+   "ordem": 2,
+   "nome": "ATIVADOR DE CRESCIMENTO CÍLIOS E SOBRANCELHAS DERMO SKIN 15G LABOTRAT",
+   "codigo": "9632",
+   "unidade": "UN",
+   "preco": 30,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8a670492-48f2-11ef-84a1-9ed86101e1d2.webp"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 3,
+   "nome": "BLEND DE ARGILAS + COLÁGENO HIDROLIZADO 100G LABOTRAT",
+   "codigo": "9647",
+   "unidade": "UN",
+   "preco": 5.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b729f2c8-48f7-11ef-8ac3-769b1a3b2346.jpg"
+   ],
+   "descricao": null,
+   "categoria": "argila"
+  },
+  {
+   "ordem": 4,
+   "nome": "BODY SPLASH FLOR DE AMEIXA E BAUNILHA SENS 230ML LABOTRAT",
+   "codigo": "9520",
+   "unidade": "UN",
+   "preco": 33.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c697bac0-2344-11ef-a1e7-2a1fd5240fa4.webp"
+   ],
+   "descricao": null,
+   "categoria": "body-splash"
+  },
+  {
+   "ordem": 5,
+   "nome": "BODY SPLASH MORANGO E RUBI SENS 230ML LABOTRAT",
+   "codigo": "9504",
+   "unidade": "UN",
+   "preco": 33.5,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/72e6f652-2344-11ef-9c65-2a1fd5240fa4.webp"
+   ],
+   "descricao": null,
+   "categoria": "body-splash"
+  },
+  {
+   "ordem": 6,
+   "nome": "BODY SPLASH ORQUIDEA E JASMIM SENS 230ML LABOTRAT",
+   "codigo": "9508",
+   "unidade": "UN",
+   "preco": 33.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/59f4c4e4-2344-11ef-8150-9211a70864be.webp"
+   ],
+   "descricao": null,
+   "categoria": "body-splash"
+  },
+  {
+   "ordem": 7,
+   "nome": "BODY SPLASH VERBENA E BAMBOO SENS 230ML LABOTRAT",
+   "codigo": "9512",
+   "unidade": "UN",
+   "preco": 33.5,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/19bef67e-2344-11ef-bcfa-aac8f5599bec.webp"
+   ],
+   "descricao": null,
+   "categoria": "body-splash"
+  },
+  {
+   "ordem": 8,
+   "nome": "CREME DE RACHADURAS C/ UREIA DIA A DIA 100G LABOTRAT",
+   "codigo": "9449",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 24,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f643a6d6-2343-11ef-8882-a63cce2924c0.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-de-rachaduras"
+  },
+  {
+   "ordem": 9,
+   "nome": "CREME HIDRATANTE DE PARAFINA VAI&BRILHA CX. C/12 UND SACHÊ 20G LABOTRAT",
+   "codigo": "9526",
+   "unidade": "CX",
+   "preco": 42,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c61503ce-2343-11ef-83a9-5688b6fd17f0.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-hidratante"
+  },
+  {
+   "ordem": 10,
+   "nome": "CREME HIDRATANTE MÃOS E PÉS DIA A DIA 100G LABOTRAT",
+   "codigo": "9450",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9bbf1402-2343-11ef-8a30-561882e03d9c.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-hidratante"
+  },
+  {
+   "ordem": 11,
+   "nome": "CREME INIBIDOR DE PELOS DERMO SKIN 140ML LABOTRAT",
+   "codigo": "9642",
+   "unidade": "UN",
+   "preco": 40,
+   "esgotado": false,
+   "saldo": 16,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9ab704ce-48f6-11ef-b43d-c6aba08ae5f0.webp"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 12,
+   "nome": "CREME PARAFINA ATIVADORA CENOURA E URUCUM VAI&BRILHA 90G LABOTRAT",
+   "codigo": "9527",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6e51fc88-2342-11ef-980e-0eda53a1cdbe.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-bronzeador"
+  },
+  {
+   "ordem": 13,
+   "nome": "CREME PARAFINA ATIVADORA VAI&BRILHA CX. C/12 UND SACHÊ 20G LABOTRAT",
+   "codigo": "9528",
+   "unidade": "CX",
+   "preco": 42,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9ac738c8-2342-11ef-a88e-1ef595ae5513.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-parafina"
+  },
+  {
+   "ordem": 14,
+   "nome": "CREME REMOVEDOR DE CUTÍCULAS 90G LABOTRATPRO",
+   "codigo": "9532",
+   "unidade": "UN",
+   "preco": 8.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/48783df4-233f-11ef-bf78-b2cfb700360f.webp"
+   ],
+   "descricao": null,
+   "categoria": "labotratpro"
+  },
+  {
+   "ordem": 15,
+   "nome": "ESFOLIANTE CAPIM LIMÃO DIA A DIA 150G LABOTRAT",
+   "codigo": "9477",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c2813154-2336-11ef-ba31-9ed4b9113e3d.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 16,
+   "nome": "ESFOLIANTE CAPIM LIMÃO DIA A DIA 300G LABOTRAT",
+   "codigo": "9478",
+   "unidade": "UN",
+   "preco": 20.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a5b6e2a8-2336-11ef-99ca-f6886d75ab6f.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 17,
+   "nome": "ESFOLIANTE LIMA DA PÉRSIA DIA A DIA 300G LABOTRAT",
+   "codigo": "9475",
+   "unidade": "UN",
+   "preco": 20.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3c2c59b2-2336-11ef-a655-ea8d48019980.jpg"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 18,
+   "nome": "ESFOLIANTE PARA OS PÉS DIA A DIA 100G LABOTRAT",
+   "codigo": "9556",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/26470d4e-2751-11ef-8e9d-2e70c907dddc.webp"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 19,
+   "nome": "ESFOLIANTE SCRUB MORANGO E RUBI SENS 300G LABOTRAT",
+   "codigo": "9503",
+   "unidade": "UN",
+   "preco": 40,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/594951e2-22a7-11ef-8d9b-1a3b9c9321c6.webp"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 20,
+   "nome": "ESFOLIANTE SCRUB ORQUIDEA E JASMIM SENS 300G LABOTRAT",
+   "codigo": "9507",
+   "unidade": "UN",
+   "preco": 40,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/9b098c40-22a3-11ef-b093-2e9dba27e0e7.webp"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 21,
+   "nome": "ESFOLIANTE SCRUB VERBENA E BAMBOO SENS 300G LABOTRAT",
+   "codigo": "9511",
+   "unidade": "UN",
+   "preco": 40,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2923a854-22a3-11ef-aa9a-3aa83d26c0b6.webp"
+   ],
+   "descricao": null,
+   "categoria": "esfoliante"
+  },
+  {
+   "ordem": 22,
+   "nome": "GEL CALMANTE PÓS-SOL VAI&BRILHA 140G LABOTRAT",
+   "codigo": "9522",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d5d3a0f0-22a2-11ef-9b8c-5e8ae5d5b371.webp"
+   ],
+   "descricao": null,
+   "categoria": "gel"
+  },
+  {
+   "ordem": 23,
+   "nome": "GEL CREME CLAREADOR FACIAL 30G LABOTRAT",
+   "codigo": "9625",
+   "unidade": "UN",
+   "preco": 31,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e5000b8c-000e-11f0-a406-c2979075db19.png"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 24,
+   "nome": "GEL DE ARNICA DIA A DIA 100G LABOTRAT",
+   "codigo": "9446",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 11,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ac9a275e-22a2-11ef-b314-e2e607d3e5f9.webp"
+   ],
+   "descricao": null,
+   "categoria": "gel"
+  },
+  {
+   "ordem": 25,
+   "nome": "GEL ICE PERNAS CANSADAS DIA A DIA 100G LABOTRAT",
+   "codigo": "9447",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 19,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8c20b0ba-22a2-11ef-8c9d-36fa7d0cf3e7.webp"
+   ],
+   "descricao": null,
+   "categoria": "gel"
+  },
+  {
+   "ordem": 26,
+   "nome": "HIDRATANTE CAPIM LIMÃO DIA A DIA 190ML LABOTRAT",
+   "codigo": "9563",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c4815112-2815-11ef-8029-62c01b8694fc.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 27,
+   "nome": "HIDRATANTE FLOR DE AMEIXA E BAUNILHA SENS 200G LABOTRAT",
+   "codigo": "9518",
+   "unidade": "UN",
+   "preco": 25.9,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2d2b121c-22a2-11ef-aeeb-8eaff4179c5e.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 28,
+   "nome": "HIDRATANTE LIMA DA PÉRSIA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9473",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/00a2ed5a-22a2-11ef-a592-723e56e38c7e.jpg"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 29,
+   "nome": "HIDRATANTE MARACUJÁ DIA A DIA 190ML LABOTRAT",
+   "codigo": "9561",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 46,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ff2befee-2814-11ef-8dba-9a2177f65b41.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 30,
+   "nome": "HIDRATANTE MELANCIA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9615",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 33,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/ced261ea-3d2a-11ef-ad4e-7245552c2936.jpg"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 31,
+   "nome": "HIDRATANTE MORANGO DIA A DIA 190ML LABOTRAT",
+   "codigo": "9592",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b33ae714-2fc8-11ef-876e-ee2d8117ca0e.jpg"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 32,
+   "nome": "HIDRATANTE ORQUIDEA E JASMIM SENS 200G LABOTRAT",
+   "codigo": "9506",
+   "unidade": "UN",
+   "preco": 25.9,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7f401bac-22a1-11ef-8f5f-9e1b839df5aa.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 33,
+   "nome": "HIDRATANTE PITAYA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9490",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 6,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4f546b8c-22a1-11ef-8f5f-9e1b839df5aa.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 34,
+   "nome": "HIDRATANTE VERBENA E BAMBOO SENS 200G LABOTRAT",
+   "codigo": "9510",
+   "unidade": "UN",
+   "preco": 25.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/13b3f9f8-22a1-11ef-9aeb-3a14a9cc3de3.webp"
+   ],
+   "descricao": null,
+   "categoria": "hidratante"
+  },
+  {
+   "ordem": 35,
+   "nome": "KIT CLAREADOR BANHO DE LUA VAI&BRILHA CX. C/5 ITENS LABOTRAT",
+   "codigo": "9529",
+   "unidade": "CX",
+   "preco": 18.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/f0b199d8-22a0-11ef-a4a8-fef534c9dfd7.webp"
+   ],
+   "descricao": null,
+   "categoria": "kit-banho-de-lua"
+  },
+  {
+   "ordem": 36,
+   "nome": "KIT SENS LABOTRAT MORANGO E RUBI CX. C/4 ITENS",
+   "codigo": "9493",
+   "unidade": "CX",
+   "preco": 134.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/eba015ee-227f-11ef-8132-96a72f48cec6.webp"
+   ],
+   "descricao": null,
+   "categoria": "kit-sens"
+  },
+  {
+   "ordem": 37,
+   "nome": "KIT SENS LABOTRAT VERBENA E BAMBOO CX. C/4 ITENS",
+   "codigo": "9495",
+   "unidade": "CX",
+   "preco": 134.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4bb9f006-227d-11ef-8581-b67a006ebf52.webp"
+   ],
+   "descricao": null,
+   "categoria": "kit-sens"
+  },
+  {
+   "ordem": 38,
+   "nome": "LIP GLOSS BOCA VOLUMOSA DERMO SKIN 2,5G LABOTRAT",
+   "codigo": "9633",
+   "unidade": "UN",
+   "preco": 19,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/eb852f6a-48f2-11ef-91a9-5aa0755299ce.webp"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 39,
+   "nome": "MÁSCARA FACIAL ARGILA ROSA ILUMINADORA 130G LABOTRAT",
+   "codigo": "9458",
+   "unidade": "UN",
+   "preco": 21.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d6847ca2-227c-11ef-9c1e-be64a696a700.webp"
+   ],
+   "descricao": null,
+   "categoria": "mascara-facial"
+  },
+  {
+   "ordem": 40,
+   "nome": "MÁSCARA FACIAL ARGILA VERMELHA ANTISSINAIS 130G LABOTRAT",
+   "codigo": "9457",
+   "unidade": "UN",
+   "preco": 21.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/3f6b2890-1de3-11ef-a9ae-2a42f323cbfd.webp"
+   ],
+   "descricao": null,
+   "categoria": "mascara-facial"
+  },
+  {
+   "ordem": 41,
+   "nome": "ÓLEO CORPORAL DE AMÊNDOAS DOCE 120ML LABOTRAT",
+   "codigo": "9443",
+   "unidade": "UN",
+   "preco": 20.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e5683934-1cf0-11ef-973c-f22240dabe70.webp"
+   ],
+   "descricao": null,
+   "categoria": "oleo-corporal"
+  },
+  {
+   "ordem": 42,
+   "nome": "ÓLEO CORPORAL DE SEMENTE DE UVA 120ML LABOTRAT",
+   "codigo": "9444",
+   "unidade": "UN",
+   "preco": 20.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/7688ae9a-1cf0-11ef-80a3-f22240dabe70.webp"
+   ],
+   "descricao": null,
+   "categoria": "oleo-corporal"
+  },
+  {
+   "ordem": 43,
+   "nome": "PACK DIA A DIA CEREJA CX. C/2 ITENS LABOTRAT",
+   "codigo": "10153",
+   "unidade": "CX",
+   "preco": 26,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bfa03e10-34cb-11f0-861f-4e9b4ecb812b.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c30ae2b2-34cb-11f0-b1cd-96c57c22a5a5.png",
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c6377b58-34cb-11f0-9dca-3681d6a93ba4.png"
+   ],
+   "descricao": null,
+   "categoria": "pack-dia-a-dia"
+  },
+  {
+   "ordem": 44,
+   "nome": "PACK DIA A DIA MORANGO CX. C/2 ITENS LABOTRAT",
+   "codigo": "9588",
+   "unidade": "CX",
+   "preco": 26,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/93e34cea-2fc7-11ef-968b-628157efebb8.webp"
+   ],
+   "descricao": null,
+   "categoria": "pack-dia-a-dia"
+  },
+  {
+   "ordem": 45,
+   "nome": "PACK DIA A DIA PÊSSEGO CX. C/2 ITENS LABOTRAT",
+   "codigo": "9645",
+   "unidade": "CX",
+   "preco": 26,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/13e19756-48f7-11ef-820f-3e3cd0a5fbb3.webp"
+   ],
+   "descricao": null,
+   "categoria": "pack-dia-a-dia"
+  },
+  {
+   "ordem": 46,
+   "nome": "SABONETE ESFOLIANTE ANTIACNE 80ML LABOTRAT",
+   "codigo": "9636",
+   "unidade": "UN",
+   "preco": 11.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/76f6d742-48f3-11ef-b79c-769b1a3b2346.jpg"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 47,
+   "nome": "SABONETE FACIAL PRIMER ANTI OLEOSIDADE DERMO SKIN 100ML LABOTRAT",
+   "codigo": "9629",
+   "unidade": "UN",
+   "preco": 11.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/02c2a50a-48f2-11ef-a536-162ba1b80403.jpg"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 48,
+   "nome": "SABONETE LÍQUIDO CAJU DIA A DIA 190ML LABOTRAT",
+   "codigo": "9479",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b25446c4-1cef-11ef-9d91-163bff5555b2.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 49,
+   "nome": "SABONETE LÍQUIDO CAPIM LIMÃO DIA A DIA 190ML LABOTRAT",
+   "codigo": "9476",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 28,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/93953ba8-1cef-11ef-8f05-92eb836d62ce.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 50,
+   "nome": "SABONETE LÌQUIDO CEREJA DIA A DIA 190ML LABOTRAT",
+   "codigo": "10154",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/fd83b9f0-34cb-11f0-b84e-4aee06de81e4.png"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 51,
+   "nome": "SABONETE LÍQUIDO LIMA DA PÉRSIA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9472",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/6c0915e6-1cef-11ef-bb3a-7ac49b8642da.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 52,
+   "nome": "SABONETE LÍQUIDO PÊSSEGO DIA A DIA 190ML LABOTRAT",
+   "codigo": "9484",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 16,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4af3e548-1cef-11ef-9453-168b09432222.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 53,
+   "nome": "SABONETE LÍQUIDO PITAYA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9569",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/bdfd8cbe-2817-11ef-bd37-7ef676fe73d4.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 54,
+   "nome": "SABONETE MELANCIA DIA A DIA 190ML LABOTRAT",
+   "codigo": "9593",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 12,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/b585e946-2fc9-11ef-825c-b6bcdd5851b8.webp"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 55,
+   "nome": "SABONETE MORANGO DIA A DIA 190ML LABOTRAT",
+   "codigo": "9591",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 21,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8800f732-2fc8-11ef-a33a-0aaf2065c9fa.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sabonete-liquido"
+  },
+  {
+   "ordem": 56,
+   "nome": "SAIS ESPUMANTES CAJU DIA A DIA 280G LABOTRAT",
+   "codigo": "9483",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/2de68e92-1cef-11ef-9155-0e7972c4ddd8.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 57,
+   "nome": "SAIS ESPUMANTES CAPIM LIMÃO DIA A DIA 280G LABOTRAT",
+   "codigo": "9564",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/00429864-2816-11ef-b082-4e54ad0944b7.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 58,
+   "nome": "SAIS ESPUMANTES LIMA DA PÉRSIA DIA A DIA 280G LABOTRAT",
+   "codigo": "9562",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/912201fe-2815-11ef-8c69-4ab259d78bf5.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 59,
+   "nome": "SAIS ESPUMANTES MARACUJÁ DIA A DIA 280G LABOTRAT",
+   "codigo": "9614",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/732b5072-3d2a-11ef-bf77-1250e6fd64e7.jpg"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 60,
+   "nome": "SAIS ESPUMANTES MELANCIA DIA A DIA 280G LABOTRAT",
+   "codigo": "9594",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 5,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/e778f614-2fc9-11ef-873c-423b192e2ff8.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 61,
+   "nome": "SAIS ESPUMANTES MORANGO DIA A DIA 280G LABOTRAT",
+   "codigo": "9567",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 9,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/48892510-2817-11ef-84f4-42f605ab5251.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 62,
+   "nome": "SAIS ESPUMANTES PITAYA DIA A DIA 280G LABOTRAT",
+   "codigo": "9492",
+   "unidade": "UN",
+   "preco": 15.9,
+   "esgotado": false,
+   "saldo": 8,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/cfefe0f4-1cee-11ef-abec-62735aac4eb1.webp"
+   ],
+   "descricao": null,
+   "categoria": "sais-espumantes"
+  },
+  {
+   "ordem": 63,
+   "nome": "SEBO DE CARNEIRO DIA A DIA 100G LABOTRAT",
+   "codigo": "9451",
+   "unidade": "UN",
+   "preco": 13.5,
+   "esgotado": false,
+   "saldo": 10,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/8e30415e-1cee-11ef-9a4d-66cf1e37633d.webp"
+   ],
+   "descricao": null,
+   "categoria": "creme-hidratante"
+  },
+  {
+   "ordem": 64,
+   "nome": "SÉRUM ÁREA DOS OLHOS DERMO SKIN 15ML LABOTRAT",
+   "codigo": "9626",
+   "unidade": "UN",
+   "preco": 23,
+   "esgotado": false,
+   "saldo": 7,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/74a7fac2-48f1-11ef-bf44-e26b4e6b12b2.jpg"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 65,
+   "nome": "SÉRUM HIDRATANTE FACIAL VITAMINA C15 DERMO SKIN 30ML LABOTRAT",
+   "codigo": "9634",
+   "unidade": "UN",
+   "preco": 37.9,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/182e70f8-48f3-11ef-9dd2-e2858ee968bb.jpg"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  },
+  {
+   "ordem": 66,
+   "nome": "SHOWER GEL FLOR DE AMEIXA E BAUNILHA SENS 230ML LABOTRAT",
+   "codigo": "9517",
+   "unidade": "UN",
+   "preco": 24.5,
+   "esgotado": false,
+   "saldo": 3,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/32dc6ad6-1ce8-11ef-bfdd-66cf1e37633d.webp"
+   ],
+   "descricao": null,
+   "categoria": "shower-gel"
+  },
+  {
+   "ordem": 67,
+   "nome": "SHOWER GEL LIQUIDO MORANGO E RUBI SENS 230ML LABOTRAT",
+   "codigo": "9501",
+   "unidade": "UN",
+   "preco": 24.5,
+   "esgotado": false,
+   "saldo": 18,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c52c2e40-1ce7-11ef-921c-1a9b05adb601.webp"
+   ],
+   "descricao": null,
+   "categoria": "shower-gel"
+  },
+  {
+   "ordem": 68,
+   "nome": "SHOWER GEL LIQUIDO ORQUIDEA E JASMIM SENS 230ML LABOTRAT",
+   "codigo": "9505",
+   "unidade": "UN",
+   "preco": 24.5,
+   "esgotado": false,
+   "saldo": 4,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/c52c2e40-1ce7-11ef-921c-1a9b05adb601.webp"
+   ],
+   "descricao": null,
+   "categoria": "shower-gel"
+  },
+  {
+   "ordem": 69,
+   "nome": "SHOWER GEL MACADÂMIA E BERGAMOTA SENS 230ML LABOTRAT",
+   "codigo": "9513",
+   "unidade": "UN",
+   "preco": 24.5,
+   "esgotado": false,
+   "saldo": 2,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/a7ae8836-1ce7-11ef-bb6e-0e577c283646.webp"
+   ],
+   "descricao": null,
+   "categoria": "shower-gel"
+  },
+  {
+   "ordem": 70,
+   "nome": "TALCO NEUTRO PRÉ-DEPILATÓRIO EPILTRAT LABOTRAT",
+   "codigo": "9646",
+   "unidade": "UN",
+   "preco": 6.5,
+   "esgotado": false,
+   "saldo": 28,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/4fcd87b6-48f7-11ef-bc55-1ec792281ea8.jpg"
+   ],
+   "descricao": null,
+   "categoria": "talco-pre-depilatorio"
+  },
+  {
+   "ordem": 71,
+   "nome": "TÔNICO ADSTRINGENTE FACIAL DERMO SKIN 100ML LABOTRAT",
+   "codigo": "9628",
+   "unidade": "UN",
+   "preco": 10,
+   "esgotado": false,
+   "saldo": 1,
+   "imagens": [
+    "https://arquivos.mercos.com/media/imagem_produto/297004/d37f8de4-48f1-11ef-86a9-9aa83391567a.jpg"
+   ],
+   "descricao": null,
+   "categoria": "dermo-skin"
+  }
+ ]
+}
