@@ -21,6 +21,23 @@ cadastro pronto para o banco de dados do site.
 
 ## Como cadastrar no seu banco de produção
 
+### Jeito automático (já configurado — recomendado)
+
+O cadastro agora roda **sozinho durante o deploy**. O comando de build do projeto
+inclui o seed DAILUS, então basta publicar o site (push no GitHub) que os 305
+produtos são cadastrados automaticamente no banco de produção, usando o mesmo
+`DATABASE_URL` da Vercel.
+
+- Se um produto já existe, ele é **atualizado** (não duplica).
+- Se rodar de novo em outro deploy, continua seguro (idempotente).
+
+> **Atenção:** como o seed roda a cada deploy, os preços/estoque do catálogo oficial
+> (arquivo `scripts/dailus-catalog.json`) prevalecem sobre edições manuais feitas no
+> painel admin. Se editar um preço manualmente e depois fizer um deploy, o valor volta
+> ao do catálogo oficial.
+
+### Jeito manual (alternativa)
+
 1. Coloque o arquivo `.env` com o `DATABASE_URL` do seu PostgreSQL (o mesmo do deploy).
 2. Na raiz do projeto, rode:
 
@@ -28,10 +45,6 @@ cadastro pronto para o banco de dados do site.
 npm install            # apenas se ainda não instalou as dependências
 npm run db:seed:dailus
 ```
-
-O script é **idempotente**: pode rodar quantas vezes quiser sem duplicar.
-Ele também **remove automaticamente** os produtos antigos de demonstração da Dailus
-(ex.: "Paleta de Sombras Dailus 12 Cores" com preço inventado), deixando só o catálogo real.
 
 ## O que mudou no site (código)
 
